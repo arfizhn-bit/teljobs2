@@ -1,8 +1,6 @@
 name: Glints Hourly Scraper
 
 on:
-  push:
-    branches: [main]
   schedule:
     # Run every hour at minute 35 (e.g. 14:35, 15:35, ...)
     - cron: '35 * * * *'
