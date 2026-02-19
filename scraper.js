@@ -279,6 +279,7 @@ const HISTORY_FILE = 'processed_jobs.json';
 
     } catch (error) {
         console.error("Fatal Error:", error);
+        await sendFonnteMessage(`⚠️ *SCRAPER CRASHED*\n\nError: ${error.message}\n\nCheck GitHub Actions logs.`);
     } finally {
         await browser.close();
 
