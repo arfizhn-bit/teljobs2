@@ -234,7 +234,7 @@ async function verifyWithAI(job) {
                     const verification = await verifyWithAI(job);
 
                     if (verification.valid) {
-                        const msg = `✅ *Job Verified*\n\n📋 *Title*: ${job.title}\n🏢 *Company*: ${job.company}\n🤖 *AI Reason*: ${verification.reason}\n\n🔗 [Apply Here](${job.link})`;
+                        const msg = `✅ *Job Verified*\n\n📋 *Title*: ${job.title}\n🏢 *Company*: ${job.company}\n🤖 *AI Reason*: ${verification.reason}\n\n🔗 [Apply Here](${job.link})\n\n🔥 #Semangat Arfi`;
                         await sendTelegramMessage(msg);
                         notificationsSent++;
                     } else {
