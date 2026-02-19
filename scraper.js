@@ -139,6 +139,8 @@ const HISTORY_FILE = 'processed_jobs.json';
         // Set a realistic user agent
         await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36');
 
+        let totalNotificationsSent = 0;
+
         for (const url of TARGET_URLS) {
             console.log(`Scraping: ${url}`);
             try {
@@ -255,6 +257,7 @@ const HISTORY_FILE = 'processed_jobs.json';
                         const msg = `✅ *Job Verified*\n\n📋 *Title*: ${job.title}\n🏢 *Company*: ${job.company}\n🤖 *AI Reason*: ${verification.reason}\n\n🔗 ${job.link}\n\n🔥 #Semangat Arfi`;
                         await sendFonnteMessage(msg);
                         notificationsSent++;
+                        totalNotificationsSent++;
                     } else {
                         console.log(`Skipped (AI Reject): ${job.title} - ${verification.reason}`);
                     }
@@ -267,6 +270,11 @@ const HISTORY_FILE = 'processed_jobs.json';
             }
 
             await delay(3000); // Wait between pages
+        }
+
+        if (totalNotificationsSent === 0) {
+            console.log("No new jobs found in this run. Sending update.");
+            await sendFonnteMessage("LOKER BELUM ADA FI");
         }
 
     } catch (error) {
