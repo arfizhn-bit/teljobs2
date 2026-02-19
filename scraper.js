@@ -120,31 +120,61 @@ async function verifyWithAI(job) {
 
                 // Extract Job Cards
                 const jobs = await page.evaluate(() => {
-                    const cards = document.querySelectorAll('.JobCardjs__JobCardContainer-sc-1koz1-0'); // Selector might change, need robust selection
-                    // Fallback selectors if class names changed (Glints uses generated class names)
-                    // Let's try finding by common structure if exact class fails, or just iterate common job card containers
-                    const jobElements = document.querySelectorAll('a[href*="/opportunities/jobs/"]');
-
                     const extracted = [];
-                    jobElements.forEach(el => {
-                        // Traverse up to find the container
-                        const container = el.closest('div');
+                    // Primary anchor: Job Title Link
+                    const jobLinks = document.querySelectorAll('a[href*="/opportunities/jobs/"]');
+
+                    jobLinks.forEach(link => {
+                        // Traverse up to find the card container.
+                        // Based on debug, title is inside CompactOpportunityCardsc...
+                        // We need a common parent that holds both Title and Company.
+
+                        let container = link.closest('div[class*="JobCard"]'); // Try generic JobCard class
+                        if (!container) {
+                            // Fallback: Go up 4 levels (Title -> Wrapper -> Content -> Card) - Adjusted based on typical React structures
+                            container = link.parentElement?.parentElement?.parentElement?.parentElement;
+                        }
+
                         if (!container) return;
 
-                        const titleEl = container.querySelector('h3');
                         const companyEl = container.querySelector('a[href*="/companies/"]');
+                        // Some jobs might not have a company link
+                        const companyName = companyEl ? companyEl.innerText : (container.innerText.split('\n')[1] || "Unknown");
 
-                        if (titleEl && companyEl) {
+                        if (link && companyName) {
                             extracted.push({
-                                title: titleEl.innerText,
-                                company: companyEl.innerText,
-                                link: el.href,
-                                details: container.innerText // Capture full text for context (date, location, etc)
+                                title: link.innerText,
+                                company: companyName,
+                                link: link.href,
+                                details: container.innerText
                             });
                         }
                     });
-                    return extracted;
+                    // Filter duplicates based on link
+                    const unique = [];
+                    const seen = new Set();
+                    extracted.forEach(item => {
+                        if (!seen.has(item.link)) {
+                            seen.add(item.link);
+                            unique.push(item);
+                        }
+                    });
+                    return unique;
                 });
+
+                if (jobs.length === 0) {
+                    console.log("No jobs found. Link Debug:");
+                    const debugLinks = await page.evaluate(() => {
+                        const links = Array.from(document.querySelectorAll('a[href*="/opportunities/jobs/"]'));
+                        return links.slice(0, 10).map(a => ({
+                            text: a.innerText,
+                            href: a.href,
+                            parentClass: a.parentElement.className,
+                            outerHTML: a.outerHTML
+                        }));
+                    });
+                    console.log("Found links:", JSON.stringify(debugLinks, null, 2));
+                }
 
                 console.log(`Found ${jobs.length} jobs on this page.`);
 
