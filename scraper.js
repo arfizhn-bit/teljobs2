@@ -16,7 +16,9 @@ const TARGET_URLS = [
     "https://glints.com/id/opportunities/jobs/explore?keyword=IT&country=ID&locationId=a6f7a20f-7172-4436-a418-afc91020ba0f&locationName=Medan%2C+Sumatera+Utara&lowestLocationLevel=3&page=1",
     "https://glints.com/id/opportunities/jobs/explore?keyword=IT&country=ID&locationId=3a47657b-facc-45dc-9d7f-1c6fb25f49d4&locationName=Kab.+Deli+Serdang%2C+Sumatera+Utara&lowestLocationLevel=3&page=1",
     // Office Boy
-    "https://glints.com/id/opportunities/jobs/explore?keyword=Office+Boy+%2F+Office+Girl&country=ID&locationId=3a47657b-facc-45dc-9d7f-1c6fb25f49d4&locationName=Kab.+Deli+Serdang%2C+Sumatera+Utara&lowestLocationLevel=3&page=1"
+    "https://glints.com/id/opportunities/jobs/explore?keyword=Office+Boy+%2F+Office+Girl&country=ID&locationId=3a47657b-facc-45dc-9d7f-1c6fb25f49d4&locationName=Kab.+Deli+Serdang%2C+Sumatera+Utara&lowestLocationLevel=3&page=1",
+    // JobStreet
+    "https://id.jobstreet.com/id/jobs/in-Medan-Sumatera-Utara?source=FE_HOME&jobId=90461280&type=standard"
 ];
 
 const BLACKLIST_COMPANIES = ["PT ALFA SCORPII", "ALFA SCORPII"];
@@ -135,7 +137,7 @@ const fs = require('fs');
 const HISTORY_FILE = 'processed_jobs.json';
 
 (async () => {
-    console.log("Starting Glints Scraper...");
+    console.log("Starting Scraper...");
     const browser = await puppeteer.launch({
         headless: "new",
         executablePath: process.env.PUPPETEER_EXECUTABLE_PATH || null, // Use CI path or default
@@ -167,83 +169,135 @@ const HISTORY_FILE = 'processed_jobs.json';
             console.log(`Scraping: ${url}`);
             try {
                 await page.goto(url, { waitUntil: 'networkidle2', timeout: 60000 });
-
-                // Scroll down to trigger lazy loading
-                await page.evaluate(async () => {
-                    await new Promise((resolve) => {
-                        let totalHeight = 0;
-                        const distance = 100;
-                        const timer = setInterval(() => {
-                            const scrollHeight = document.body.scrollHeight;
-                            window.scrollBy(0, distance);
-                            totalHeight += distance;
-
-                            if (totalHeight >= scrollHeight - window.innerHeight || totalHeight > 5000) { // Limit scroll
-                                clearInterval(timer);
-                                resolve();
-                            }
-                        }, 100);
-                    });
-                });
-
                 await delay(2000); // Wait for content to settle
 
-                // Extract Job Cards
-                const jobs = await page.evaluate(() => {
-                    const extracted = [];
-                    // Primary anchor: Job Title Link
-                    const jobLinks = document.querySelectorAll('a[href*="/opportunities/jobs/"]');
+                let jobs = [];
 
-                    jobLinks.forEach(link => {
-                        // Traverse up to find the card container.
-                        // Based on debug, title is inside CompactOpportunityCardsc...
-                        // We need a common parent that holds both Title and Company.
+                if (url.includes('glints.com')) {
+                    // --- GLINTS SCRAPING LOGIC ---
+                    console.log("Detected Glints URL");
+                    // Scroll down to trigger lazy loading
+                    await page.evaluate(async () => {
+                        await new Promise((resolve) => {
+                            let totalHeight = 0;
+                            const distance = 100;
+                            const timer = setInterval(() => {
+                                const scrollHeight = document.body.scrollHeight;
+                                window.scrollBy(0, distance);
+                                totalHeight += distance;
 
-                        let container = link.closest('div[class*="JobCard"]'); // Try generic JobCard class
-                        if (!container) {
-                            // Fallback: Go up 4 levels (Title -> Wrapper -> Content -> Card) - Adjusted based on typical React structures
-                            container = link.parentElement?.parentElement?.parentElement?.parentElement;
-                        }
-
-                        if (!container) return;
-
-                        const companyEl = container.querySelector('a[href*="/companies/"]');
-                        // Some jobs might not have a company link
-                        const companyName = companyEl ? companyEl.innerText : (container.innerText.split('\n')[1] || "Unknown");
-
-                        if (link && companyName) {
-                            extracted.push({
-                                title: link.innerText,
-                                company: companyName,
-                                link: link.href,
-                                details: container.innerText
-                            });
-                        }
+                                if (totalHeight >= scrollHeight - window.innerHeight || totalHeight > 5000) { // Limit scroll
+                                    clearInterval(timer);
+                                    resolve();
+                                }
+                            }, 100);
+                        });
                     });
-                    // Filter duplicates based on link
-                    const unique = [];
-                    const seen = new Set();
-                    extracted.forEach(item => {
-                        if (!seen.has(item.link)) {
-                            seen.add(item.link);
-                            unique.push(item);
-                        }
+
+                    await delay(2000);
+
+                    // Extract Job Cards
+                    jobs = await page.evaluate(() => {
+                        const extracted = [];
+                        // Primary anchor: Job Title Link
+                        const jobLinks = document.querySelectorAll('a[href*="/opportunities/jobs/"]');
+
+                        jobLinks.forEach(link => {
+                            let container = link.closest('div[class*="JobCard"]');
+                            if (!container) {
+                                container = link.parentElement?.parentElement?.parentElement?.parentElement;
+                            }
+
+                            if (!container) return;
+
+                            const companyEl = container.querySelector('a[href*="/companies/"]');
+                            const companyName = companyEl ? companyEl.innerText : (container.innerText.split('\n')[1] || "Unknown");
+
+                            if (link && companyName) {
+                                extracted.push({
+                                    title: link.innerText,
+                                    company: companyName,
+                                    link: link.href,
+                                    details: container.innerText
+                                });
+                            }
+                        });
+
+                        // Filter duplicates
+                        const unique = [];
+                        const seen = new Set();
+                        extracted.forEach(item => {
+                            if (!seen.has(item.link)) {
+                                seen.add(item.link);
+                                unique.push(item);
+                            }
+                        });
+                        return unique;
                     });
-                    return unique;
-                });
+
+                } else if (url.includes('jobstreet')) {
+                    // --- JOBSTREET SCRAPING LOGIC ---
+                    console.log("Detected JobStreet URL");
+
+                    // JobStreet Infinite Scroll (Simple)
+                    await page.evaluate(async () => {
+                        await new Promise((resolve) => {
+                            let totalHeight = 0;
+                            const distance = 300;
+                            let retries = 0;
+                            const timer = setInterval(() => {
+                                const scrollHeight = document.body.scrollHeight;
+                                window.scrollBy(0, distance);
+                                totalHeight += distance;
+
+                                if (totalHeight >= scrollHeight || totalHeight > 10000) {
+                                    clearInterval(timer);
+                                    resolve();
+                                }
+                            }, 200);
+                        });
+                    });
+
+                    await delay(3000);
+
+                    jobs = await page.evaluate(() => {
+                        const extracted = [];
+                        // JobStreet uses <article> for job cards usually
+                        const articles = document.querySelectorAll('article');
+
+                        articles.forEach(article => {
+                            const titleEl = article.querySelector('[data-automation="jobTitle"]');
+                            const companyEl = article.querySelector('[data-automation="jobCompany"]');
+                            const dateEl = article.querySelector('[data-automation="jobListingDate"]');
+                            const locationEl = article.querySelector('[data-automation="jobLocation"]');
+                            const linkEl = article.querySelector('a[data-automation="jobTitle"]') || article.querySelector('a[href*="/job/"]');
+
+                            if (titleEl && linkEl) {
+                                extracted.push({
+                                    title: titleEl.innerText,
+                                    company: companyEl ? companyEl.innerText : "Unknown Info",
+                                    link: linkEl.href,
+                                    // Combine text for context
+                                    details: `${titleEl.innerText}\n${companyEl ? companyEl.innerText : ''}\n${locationEl ? locationEl.innerText : ''}\n${dateEl ? dateEl.innerText : ''}`
+                                });
+                            }
+                        });
+
+                        // Filter duplicates
+                        const unique = [];
+                        const seen = new Set();
+                        extracted.forEach(item => {
+                            if (!seen.has(item.link)) {
+                                seen.add(item.link);
+                                unique.push(item);
+                            }
+                        });
+                        return unique;
+                    });
+                }
 
                 if (jobs.length === 0) {
-                    console.log("No jobs found. Link Debug:");
-                    const debugLinks = await page.evaluate(() => {
-                        const links = Array.from(document.querySelectorAll('a[href*="/opportunities/jobs/"]'));
-                        return links.slice(0, 10).map(a => ({
-                            text: a.innerText,
-                            href: a.href,
-                            parentClass: a.parentElement.className,
-                            outerHTML: a.outerHTML
-                        }));
-                    });
-                    console.log("Found links:", JSON.stringify(debugLinks, null, 2));
+                    console.log(`No jobs found on ${url}`);
                 }
 
                 console.log(`Found ${jobs.length} jobs on this page.`);
