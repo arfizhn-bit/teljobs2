@@ -19,8 +19,8 @@ const TARGET_URLS = [
     "https://glints.com/id/opportunities/jobs/explore?keyword=Office+Boy+%2F+Office+Girl&country=ID&locationId=3a47657b-facc-45dc-9d7f-1c6fb25f49d4&locationName=Kab.+Deli+Serdang%2C+Sumatera+Utara&lowestLocationLevel=3&page=1",
     // JobStreet
     "https://id.jobstreet.com/id/jobs/in-Medan-Sumatera-Utara?source=FE_HOME&jobId=90461280&type=standard",
-    // Glints Medan Page 3
-    "https://glints.com/id/opportunities/jobs/explore?country=ID&locationId=a6f7a20f-7172-4436-a418-afc91020ba0f&locationName=Medan%2C+Sumatera+Utara&lowestLocationLevel=3&page=3"
+    // Glints Medan Terbaru (sortBy=LATEST)
+    "https://glints.com/id/opportunities/jobs/explore?country=ID&locationId=a6f7a20f-7172-4436-a418-afc91020ba0f&locationName=Medan%2C+Sumatera+Utara&lowestLocationLevel=3&sortBy=LATEST"
 ];
 
 const BLACKLIST_COMPANIES = ["PT ALFA SCORPII", "ALFA SCORPII"];
@@ -28,7 +28,7 @@ const BLACKLIST_COMPANIES = ["PT ALFA SCORPII", "ALFA SCORPII"];
 // Helper to delay execution
 const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
-const MAX_NOTIFICATIONS_PER_RUN = 5;
+const MAX_NOTIFICATIONS_PER_RUN = 10;
 
 // Helper to check freshness (max 3 days)
 function isFresh(text) {
