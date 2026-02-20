@@ -89,7 +89,7 @@ async function sendTelegramMessage(message) {
 
 // Send notification to both WhatsApp and Telegram
 async function sendNotification(message) {
-    await sendFonnteMessage(message);
+    // await sendFonnteMessage(message);
     await sendTelegramMessage(message);
 }
 
