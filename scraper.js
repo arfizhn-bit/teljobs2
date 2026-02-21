@@ -21,6 +21,8 @@ const TARGET_URLS = [
     "https://id.jobstreet.com/id/jobs/in-Medan-Sumatera-Utara?sortmode=listeddate",
     // Glints Medan Terbaru (sortBy=LATEST)
     "https://glints.com/id/opportunities/jobs/explore?country=ID&locationId=a6f7a20f-7172-4436-a418-afc91020ba0f&locationName=Medan%2C+Sumatera+Utara&lowestLocationLevel=3&sortBy=LATEST",
+    // Glints Deli Serdang Terbaru (sortBy=LATEST)
+    "https://glints.com/id/opportunities/jobs/explore?country=ID&locationId=3a47657b-facc-45dc-9d7f-1c6fb25f49d4&locationName=Kab.+Deli+Serdang%2C+Sumatera+Utara&lowestLocationLevel=3&sortBy=LATEST",
     // LokerMedan
     "https://lokermedan.co.id/"
 ];
