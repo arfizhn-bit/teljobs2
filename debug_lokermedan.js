@@ -55,17 +55,21 @@ const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
     console.log(`Extracted total: ${extractedJobs.length} jobs from page 1.`);
     console.log(extractedJobs.slice(0, 3)); // show first 3
 
-    if (extractedJobs.length === 0) {
-        console.log("No jobs found with first attempt. Dumping page info...");
+    if (extractedJobs.length <= 1) {
+        console.log("No/few jobs found with first attempt. Dumping page info...");
         const title = await page.title();
         console.log("Page Title:", title);
 
+        const html = await page.evaluate(() => document.body.innerText.substring(0, 3000));
+        console.log("Page Text Snippet:", html);
+
         // Find any links that look like job posts
         const potentialLinks = await page.evaluate(() => {
-            return Array.from(document.querySelectorAll('a'))
+            const links = Array.from(document.querySelectorAll('a'))
                 .map(a => a.href)
-                .filter(h => h.includes('lowongan-kerja') || h.includes('loker'))
-                .slice(0, 10);
+                .filter(h => h.includes('loker'));
+            // get unique links
+            return Array.from(new Set(links)).slice(0, 15);
         });
         console.log("Potential Job Links found anywhere:", potentialLinks);
     }
