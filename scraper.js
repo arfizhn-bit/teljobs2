@@ -272,10 +272,22 @@ const HISTORY_FILE = 'processed_jobs.json';
                     jobs = await page.evaluate(() => {
                         const extracted = [];
                         const links = Array.from(document.querySelectorAll('a'))
-                            .filter(a => a.href && a.href.includes('-loker-') && a.href.endsWith('.html') && !a.href.includes('api.whatsapp.com'));
+                            .map(a => a.getAttribute('href')) // Get raw href, not absolute yet
+                            .filter(href => href && href.includes('-loker-') && href.endsWith('.html') && !href.includes('whatsapp.com'));
 
-                        links.forEach(linkEl => {
+                        // Use a Set to avoid processing same relative link twice
+                        const uniqueHrefs = [...new Set(links)];
+
+                        uniqueHrefs.forEach(href => {
+                            // Find an anchor element that matches this href to extract title/details
+                            const linkEl = document.querySelector(`a[href="${href}"]`);
+                            if (!linkEl) return;
+
                             const title = linkEl.innerText.trim() || linkEl.title || "Unknown";
+
+                            // Make URL absolute
+                            const absoluteUrl = href.startsWith('http') ? href : `https://lokermedan.co.id/${href.replace('../', '').replace('./', '')}`;
+
                             if (title.length > 5 && title.toLowerCase() !== "selengkapnya" && title.toLowerCase() !== "apply") {
                                 let details = "";
                                 const container = linkEl.closest('.job-item, .card, .post, article, div[class*="item"], div[class*="col-"]');
@@ -293,7 +305,7 @@ const HISTORY_FILE = 'processed_jobs.json';
                                 extracted.push({
                                     title: title,
                                     company: company,
-                                    link: linkEl.href,
+                                    link: absoluteUrl,
                                     details: details || title
                                 });
                             }
