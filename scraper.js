@@ -331,7 +331,8 @@ const HISTORY_FILE = 'processed_jobs.json';
 
                 console.log(`Found ${jobs.length} jobs on this page.`);
 
-                let notificationsSent = 0;
+                let batchedMessage = "";
+                let jobsInBatch = 0;
 
                 for (const job of jobs) {
                     if (notificationsSent >= MAX_NOTIFICATIONS_PER_RUN) {
@@ -355,14 +356,28 @@ const HISTORY_FILE = 'processed_jobs.json';
                         continue;
                     }
 
-                    // Send Direct Notification (AI Removed)
-                    console.log(`Sending notification for: ${job.title} at ${job.company}`);
-                    const msg = `✅ <b>Loker Baru</b>\n\n📋 <b>Judul</b>: ${job.title}\n🏢 <b>Perusahaan</b>: ${job.company}\n\n🔗 <a href="${job.link}">Buka Lowongan</a>\n\n🔥 #Semangat Arfi`;
-                    await sendNotification(msg);
+                    // Accumulate Notification
+                    console.log(`Adding to batch for: ${job.title} at ${job.company}`);
+                    batchedMessage += `✅ <b>${job.title}</b>\n🏢 ${job.company}\n🔗 <a href="${job.link}">Buka Lowongan</a>\n\n`;
+                    jobsInBatch++;
                     notificationsSent++;
                     totalNotificationsSent++;
 
-                    await delay(1000); // Rate limit protection for Telegram
+                    // Send batch if it reaches 5 jobs to avoid message being too long
+                    if (jobsInBatch >= 5) {
+                        batchedMessage += `🔥 <i>#Semangat Arfi</i>`;
+                        await sendNotification(batchedMessage);
+                        batchedMessage = "";
+                        jobsInBatch = 0;
+                        await delay(2000); // Rate limit protection for Telegram
+                    }
+                }
+
+                // Send remaining jobs in the batch
+                if (jobsInBatch > 0) {
+                    batchedMessage += `🔥 <i>#Semangat Arfi</i>`;
+                    await sendNotification(batchedMessage);
+                    await delay(2000);
                 }
 
             } catch (err) {
