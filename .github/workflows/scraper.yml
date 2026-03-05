@@ -31,8 +31,6 @@ jobs:
       env:
         FONNTE_TOKEN: ${{ secrets.FONNTE_TOKEN }}
         WHATSAPP_TARGET: ${{ secrets.WHATSAPP_TARGET }}
-        WABLAS_TOKEN: ${{ secrets.WABLAS_TOKEN }}
-        STARSENDER_TOKEN: ${{ secrets.STARSENDER_TOKEN }}
         TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
