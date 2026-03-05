@@ -81,21 +81,93 @@ function isFresh(text) {
     return false; // Strict default
 }
 
-async function sendFonnteMessage(message) {
-    const url = "https://api.fonnte.com/send";
-    try {
-        const response = await axios.post(url, {
-            target: process.env.WHATSAPP_TARGET, // Target WhatsApp Number
-            message: message,
-        }, {
-            headers: {
-                "Authorization": process.env.FONNTE_TOKEN
+// === MULTI-VENDOR WHATSAPP GATEWAY ===
+const WA_VENDORS = [
+    {
+        name: 'Fonnte',
+        enabled: () => !!process.env.FONNTE_TOKEN && process.env.FONNTE_TOKEN !== 'your_fonnte_token_here',
+        send: async (target, message) => {
+            const response = await axios.post('https://api.fonnte.com/send', {
+                target: target,
+                message: message,
+            }, {
+                headers: { 'Authorization': process.env.FONNTE_TOKEN }
+            });
+            // Fonnte returns status false or "failed" when limit reached
+            if (response.data.status === false || response.data.status === 'failed') {
+                throw new Error(`Fonnte limit/error: ${JSON.stringify(response.data)}`);
             }
-        });
-        console.log("WhatsApp message sent via Fonnte:", response.data.status);
-    } catch (error) {
-        console.error("Failed to send WhatsApp message:", error.message);
+            return response.data;
+        }
+    },
+    {
+        name: 'Wablas',
+        enabled: () => !!process.env.WABLAS_TOKEN,
+        send: async (target, message) => {
+            const response = await axios.post('https://solo.wablas.com/api/send-message', {
+                phone: target,
+                message: message,
+            }, {
+                headers: { 'Authorization': process.env.WABLAS_TOKEN }
+            });
+            if (response.data.status === false) {
+                throw new Error(`Wablas limit/error: ${JSON.stringify(response.data)}`);
+            }
+            return response.data;
+        }
+    },
+    {
+        name: 'Starsender',
+        enabled: () => !!process.env.STARSENDER_TOKEN,
+        send: async (target, message) => {
+            const response = await axios.post('https://starsender.online/api/sendText', {
+                messageData: {
+                    to: target,
+                    text: message,
+                }
+            }, {
+                headers: {
+                    'Content-Type': 'application/json',
+                    'apikey': process.env.STARSENDER_TOKEN
+                }
+            });
+            if (response.data.status === false) {
+                throw new Error(`Starsender limit/error: ${JSON.stringify(response.data)}`);
+            }
+            return response.data;
+        }
     }
+];
+
+async function sendWhatsAppMessage(message) {
+    const target = process.env.WHATSAPP_TARGET;
+    if (!target) {
+        console.log("WHATSAPP_TARGET not set, skipping WhatsApp notification.");
+        return;
+    }
+
+    const enabledVendors = WA_VENDORS.filter(v => v.enabled());
+    if (enabledVendors.length === 0) {
+        console.log("No WA vendors configured, skipping WhatsApp notification.");
+        return;
+    }
+
+    // Strip HTML tags for WhatsApp (plain text)
+    const plainMessage = message.replace(/<[^>]*>/g, '').replace(/\\n/g, '\n');
+
+    for (const vendor of enabledVendors) {
+        try {
+            console.log(`📱 Trying WA vendor: ${vendor.name}...`);
+            const result = await vendor.send(target, plainMessage);
+            console.log(`✅ WhatsApp sent via ${vendor.name}:`, JSON.stringify(result).substring(0, 100));
+            return; // Success — stop trying other vendors
+        } catch (error) {
+            console.error(`❌ ${vendor.name} failed: ${error.message}`);
+            console.log(`⏭️ Switching to next vendor...`);
+        }
+    }
+
+    console.error("⚠️ All WA vendors failed! Message not delivered via WhatsApp.");
 }
 
 async function sendTelegramMessage(message) {
@@ -159,11 +231,7 @@ async function sendEmailNotification(message) {
 async function sendNotification(message) {
     await sendTelegramMessage(message);
     await sendEmailNotification(message);
-
-    // Send to WhatsApp if configured
-    if (process.env.FONNTE_TOKEN && process.env.FONNTE_TOKEN !== 'your_fonnte_token_here') {
-        await sendFonnteMessage(message);
-    }
+    await sendWhatsAppMessage(message);
 }
 
 const fs = require('fs');
