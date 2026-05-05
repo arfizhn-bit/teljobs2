@@ -1,95 +1,5 @@
 [
   {
-    "id": "crew store (penempatan deli serdang)-prosper&co acai juice bar",
-    "title": "Crew Store (Penempatan Deli serdang)",
-    "company": "Prosper&Co Acai Juice Bar",
-    "firstSeen": "2026-04-22T17:03:01.568Z",
-    "lastSeen": "2026-04-25T08:02:54.388Z",
-    "seenCount": 11,
-    "lastNotified": "2026-04-22T17:03:01.568Z"
-  },
-  {
-    "id": "barista (penempatan deli serdang)-prosper&co acai juice bar",
-    "title": "Barista (Penempatan Deli serdang)",
-    "company": "Prosper&Co Acai Juice Bar",
-    "firstSeen": "2026-04-22T17:03:01.568Z",
-    "lastSeen": "2026-04-25T08:02:54.388Z",
-    "seenCount": 11,
-    "lastNotified": "2026-04-22T17:03:01.568Z"
-  },
-  {
-    "id": "master sulam-elora daya cantik",
-    "title": "Master Sulam",
-    "company": "ELORA DAYA CANTIK",
-    "firstSeen": "2026-04-22T17:03:01.568Z",
-    "lastSeen": "2026-04-25T02:03:07.670Z",
-    "seenCount": 7,
-    "lastNotified": "2026-04-22T17:03:01.568Z"
-  },
-  {
-    "id": "ahli gizi-klinik pratama sehati husada",
-    "title": "ahli gizi",
-    "company": "KLINIK PRATAMA SEHATI HUSADA",
-    "firstSeen": "2026-04-22T17:03:01.568Z",
-    "lastSeen": "2026-04-25T02:03:07.670Z",
-    "seenCount": 7,
-    "lastNotified": "2026-04-22T17:03:01.568Z"
-  },
-  {
-    "id": "relationship manager-pt mandiri andalan utama",
-    "title": "RELATIONSHIP MANAGER",
-    "company": "PT Mandiri Andalan Utama",
-    "firstSeen": "2026-04-22T20:02:46.702Z",
-    "lastSeen": "2026-04-23T07:01:45.328Z",
-    "seenCount": 3,
-    "lastNotified": "2026-04-22T20:02:46.702Z"
-  },
-  {
-    "id": "agen asuransi tlro - medan-pt taspen abadi sentosa",
-    "title": "Agen Asuransi TLRO - Medan",
-    "company": "PT Taspen Abadi Sentosa",
-    "firstSeen": "2026-04-22T20:02:46.703Z",
-    "lastSeen": "2026-04-23T07:01:45.328Z",
-    "seenCount": 3,
-    "lastNotified": "2026-04-22T20:02:46.703Z"
-  },
-  {
-    "id": "branch operational head (medan)-pengiklan anonim",
-    "title": "Branch Operational Head (Medan)",
-    "company": "Pengiklan Anonim",
-    "firstSeen": "2026-04-22T20:02:46.703Z",
-    "lastSeen": "2026-04-23T07:01:45.328Z",
-    "seenCount": 3,
-    "lastNotified": "2026-04-22T20:02:46.703Z"
-  },
-  {
-    "id": "sales new car & used car-pt mandiri andalan utama",
-    "title": "SALES NEW CAR & USED CAR",
-    "company": "PT Mandiri Andalan Utama",
-    "firstSeen": "2026-04-22T20:02:46.703Z",
-    "lastSeen": "2026-04-23T07:01:45.328Z",
-    "seenCount": 3,
-    "lastNotified": "2026-04-22T20:02:46.703Z"
-  },
-  {
-    "id": "mitra kurir motor - kab asahan-pt. tri adi bersama",
-    "title": "Mitra Kurir Motor - Kab Asahan",
-    "company": "PT. Tri Adi Bersama",
-    "firstSeen": "2026-04-22T20:02:46.703Z",
-    "lastSeen": "2026-04-23T05:02:35.385Z",
-    "seenCount": 2,
-    "lastNotified": "2026-04-22T20:02:46.703Z"
-  },
-  {
-    "id": "sales marketing alat kesehatan-pt trigi",
-    "title": "Sales Marketing alat kesehatan",
-    "company": "PT TRIGI",
-    "firstSeen": "2026-04-22T20:02:49.437Z",
-    "lastSeen": "2026-04-23T05:02:35.385Z",
-    "seenCount": 2,
-    "lastNotified": "2026-04-22T20:02:49.437Z"
-  },
-  {
     "id": "management development program (mdp) medan-pt sinar mitra sepadan finance",
     "title": "Management Development Program (MDP) Medan",
     "company": "PT Sinar Mitra Sepadan Finance",
@@ -8998,5 +8908,95 @@
     "lastSeen": "2026-05-05T08:02:51.055Z",
     "seenCount": 1,
     "lastNotified": "2026-05-05T08:02:51.055Z"
+  },
+  {
+    "id": "akuntansi & perpajakan-pengiklan anonim",
+    "title": "Akuntansi & Perpajakan",
+    "company": "Pengiklan Anonim",
+    "firstSeen": "2026-05-05T11:08:19.310Z",
+    "lastSeen": "2026-05-05T11:08:19.310Z",
+    "seenCount": 1,
+    "lastNotified": "2026-05-05T11:08:19.310Z"
+  },
+  {
+    "id": "staff teknik umum-pengiklan anonim",
+    "title": "Staff Teknik Umum",
+    "company": "Pengiklan Anonim",
+    "firstSeen": "2026-05-05T11:08:19.310Z",
+    "lastSeen": "2026-05-05T11:08:19.310Z",
+    "seenCount": 1,
+    "lastNotified": "2026-05-05T11:08:19.310Z"
+  },
+  {
+    "id": "customer engineer (medan area)-pt intikom berlian mustika",
+    "title": "Customer Engineer (Medan Area)",
+    "company": "PT Intikom Berlian Mustika",
+    "firstSeen": "2026-05-05T11:08:19.310Z",
+    "lastSeen": "2026-05-05T11:08:19.310Z",
+    "seenCount": 1,
+    "lastNotified": "2026-05-05T11:08:19.310Z"
+  },
+  {
+    "id": "accounting staff-wilmar group",
+    "title": "Accounting Staff",
+    "company": "Wilmar Group",
+    "firstSeen": "2026-05-05T11:08:19.310Z",
+    "lastSeen": "2026-05-05T11:08:19.310Z",
+    "seenCount": 1,
+    "lastNotified": "2026-05-05T11:08:19.310Z"
+  },
+  {
+    "id": "supervisor fnb-billiard and cafe",
+    "title": "Supervisor FnB",
+    "company": "Billiard and Cafe",
+    "firstSeen": "2026-05-05T11:08:19.310Z",
+    "lastSeen": "2026-05-05T11:08:19.310Z",
+    "seenCount": 1,
+    "lastNotified": "2026-05-05T11:08:19.310Z"
+  },
+  {
+    "id": "mechanical staff-pt asia sakti wahid foods manufacture",
+    "title": "Mechanical Staff",
+    "company": "PT Asia Sakti Wahid Foods Manufacture",
+    "firstSeen": "2026-05-05T11:08:21.900Z",
+    "lastSeen": "2026-05-05T11:08:21.900Z",
+    "seenCount": 1,
+    "lastNotified": "2026-05-05T11:08:21.900Z"
+  },
+  {
+    "id": "area human capital manager-pt wahana ottomitra multiartha (wom finance), tbk",
+    "title": "Area Human Capital Manager",
+    "company": "PT Wahana Ottomitra Multiartha (WOM Finance), Tbk",
+    "firstSeen": "2026-05-05T11:08:21.900Z",
+    "lastSeen": "2026-05-05T11:08:21.900Z",
+    "seenCount": 1,
+    "lastNotified": "2026-05-05T11:08:21.900Z"
+  },
+  {
+    "id": "staff purchasing-pt mark dynamics indonesia, tbk",
+    "title": "Staff Purchasing",
+    "company": "PT Mark Dynamics Indonesia, Tbk",
+    "firstSeen": "2026-05-05T11:08:21.900Z",
+    "lastSeen": "2026-05-05T11:08:21.900Z",
+    "seenCount": 1,
+    "lastNotified": "2026-05-05T11:08:21.900Z"
+  },
+  {
+    "id": "vice principal-prime one school",
+    "title": "Vice Principal",
+    "company": "Prime One School",
+    "firstSeen": "2026-05-05T11:08:21.900Z",
+    "lastSeen": "2026-05-05T11:08:21.900Z",
+    "seenCount": 1,
+    "lastNotified": "2026-05-05T11:08:21.900Z"
+  },
+  {
+    "id": "quality control-fa. indomas",
+    "title": "Quality Control",
+    "company": "Fa. Indomas",
+    "firstSeen": "2026-05-05T11:08:21.900Z",
+    "lastSeen": "2026-05-05T11:08:21.900Z",
+    "seenCount": 1,
+    "lastNotified": "2026-05-05T11:08:21.900Z"
   }
 ]
