@@ -1,95 +1,5 @@
 [
   {
-    "id": "sales-cv. jaya intero",
-    "title": "Sales",
-    "company": "CV. Jaya Intero",
-    "firstSeen": "2026-07-31T08:46:26.830Z",
-    "lastSeen": "2026-07-31T08:46:26.830Z",
-    "seenCount": 1,
-    "lastNotified": "2026-07-31T08:46:26.830Z"
-  },
-  {
-    "id": "team leader (business manager) - sumatera utara-pt amartha mikro fintek (jakarta)",
-    "title": "Team Leader (Business Manager) - Sumatera Utara",
-    "company": "PT Amartha Mikro Fintek (Jakarta)",
-    "firstSeen": "2026-07-31T08:46:26.830Z",
-    "lastSeen": "2026-07-31T20:02:55.200Z",
-    "seenCount": 2,
-    "lastNotified": "2026-07-31T08:46:26.830Z"
-  },
-  {
-    "id": "sales associate medan-pt. dirgaputra ekapratama",
-    "title": "Sales Associate Medan",
-    "company": "PT. Dirgaputra Ekapratama",
-    "firstSeen": "2026-07-31T08:46:29.327Z",
-    "lastSeen": "2026-07-31T20:02:55.200Z",
-    "seenCount": 2,
-    "lastNotified": "2026-07-31T08:46:29.327Z"
-  },
-  {
-    "id": "sales promotor elektronik - medan-staffinc",
-    "title": "Sales Promotor Elektronik - Medan",
-    "company": "Staffinc",
-    "firstSeen": "2026-07-31T08:46:29.327Z",
-    "lastSeen": "2026-07-31T20:02:55.200Z",
-    "seenCount": 2,
-    "lastNotified": "2026-07-31T08:46:29.327Z"
-  },
-  {
-    "id": "translator mandarin-pt. jinlong international food",
-    "title": "Translator Mandarin",
-    "company": "PT. Jinlong International Food",
-    "firstSeen": "2026-07-31T08:46:29.327Z",
-    "lastSeen": "2026-07-31T20:02:55.200Z",
-    "seenCount": 2,
-    "lastNotified": "2026-07-31T08:46:29.327Z"
-  },
-  {
-    "id": "finance control staff-pt capella dinamik nusantara",
-    "title": "Finance Control Staff",
-    "company": "PT Capella Dinamik Nusantara",
-    "firstSeen": "2026-07-31T08:46:47.320Z",
-    "lastSeen": "2026-08-01T02:03:02.067Z",
-    "seenCount": 5,
-    "lastNotified": "2026-07-31T08:46:47.320Z"
-  },
-  {
-    "id": "marketing property-pt suryamas prima indonesia",
-    "title": "Marketing Property",
-    "company": "PT SURYAMAS PRIMA INDONESIA",
-    "firstSeen": "2026-07-31T11:01:19.939Z",
-    "lastSeen": "2026-08-19T08:01:52.298Z",
-    "seenCount": 932,
-    "lastNotified": "2026-07-31T11:01:19.939Z"
-  },
-  {
-    "id": "staff ekspor impor-pt yurindo perdana",
-    "title": "Staff Ekspor Impor",
-    "company": "PT Yurindo Perdana",
-    "firstSeen": "2026-07-31T11:01:53.655Z",
-    "lastSeen": "2026-08-19T08:01:52.298Z",
-    "seenCount": 360,
-    "lastNotified": "2026-07-31T11:01:53.655Z"
-  },
-  {
-    "id": "customer development executive - industry south branch penempatan jakarta timur-pt rentokil initial indonesia",
-    "title": "Customer Development Executive - Industry South Branch Penempatan Jakarta Timur",
-    "company": "PT Rentokil Initial Indonesia",
-    "firstSeen": "2026-07-31T11:02:56.670Z",
-    "lastSeen": "2026-08-02T02:02:56.984Z",
-    "seenCount": 8,
-    "lastNotified": "2026-07-31T11:02:56.670Z"
-  },
-  {
-    "id": "sales consultant elektronik-staffinc",
-    "title": "Sales Consultant Elektronik",
-    "company": "Staffinc",
-    "firstSeen": "2026-07-31T11:02:56.670Z",
-    "lastSeen": "2026-08-01T11:02:53.386Z",
-    "seenCount": 5,
-    "lastNotified": "2026-07-31T11:02:56.670Z"
-  },
-  {
     "id": "stock keeper (medan)-pt beaute haul indonesia (beautyhaul - somethinc)",
     "title": "Stock Keeper (Medan)",
     "company": "PT Beaute Haul Indonesia (Beautyhaul - Somethinc)",
@@ -238,8 +148,8 @@
     "title": "Staff Recruitment",
     "company": "PT Hokinda Citralestari",
     "firstSeen": "2026-07-31T17:02:15.655Z",
-    "lastSeen": "2026-08-19T08:01:52.298Z",
-    "seenCount": 434,
+    "lastSeen": "2026-08-19T11:01:48.677Z",
+    "seenCount": 435,
     "lastNotified": "2026-07-31T17:02:15.655Z"
   },
   {
@@ -382,8 +292,8 @@
     "title": "Marketing",
     "company": "PT. Grha Shafa Medika",
     "firstSeen": "2026-08-01T05:01:38.604Z",
-    "lastSeen": "2026-08-19T08:01:36.000Z",
-    "seenCount": 441,
+    "lastSeen": "2026-08-19T11:01:32.761Z",
+    "seenCount": 443,
     "lastNotified": "2026-08-01T05:01:38.604Z"
   },
   {
@@ -391,8 +301,8 @@
     "title": "Staff Marketing",
     "company": "PT Solusi Nusantara",
     "firstSeen": "2026-08-01T05:01:38.605Z",
-    "lastSeen": "2026-08-19T08:01:35.999Z",
-    "seenCount": 249,
+    "lastSeen": "2026-08-19T11:01:32.761Z",
+    "seenCount": 250,
     "lastNotified": "2026-08-01T05:01:38.605Z"
   },
   {
@@ -778,8 +688,8 @@
     "title": "Creative Designer & Social Media Handler (Sparepart Sepeda Motor",
     "company": "PT MOTORINDO PERKASA RAYA",
     "firstSeen": "2026-08-01T14:01:28.692Z",
-    "lastSeen": "2026-08-19T08:01:06.453Z",
-    "seenCount": 210,
+    "lastSeen": "2026-08-19T11:01:01.330Z",
+    "seenCount": 211,
     "lastNotified": "2026-08-01T14:01:28.692Z"
   },
   {
@@ -1120,8 +1030,8 @@
     "title": "Social Media Content Specialist",
     "company": "PT NUSA ERA PRADANA",
     "firstSeen": "2026-08-03T05:01:10.933Z",
-    "lastSeen": "2026-08-19T08:01:06.453Z",
-    "seenCount": 192,
+    "lastSeen": "2026-08-19T11:01:01.330Z",
+    "seenCount": 193,
     "lastNotified": "2026-08-03T05:01:10.933Z"
   },
   {
@@ -1129,8 +1039,8 @@
     "title": "Tenaga Pengajar IT",
     "company": "DIGIKIDZ",
     "firstSeen": "2026-08-03T05:02:22.444Z",
-    "lastSeen": "2026-08-19T08:02:11.548Z",
-    "seenCount": 93,
+    "lastSeen": "2026-08-19T11:02:56.175Z",
+    "seenCount": 96,
     "lastNotified": "2026-08-03T05:02:22.444Z"
   },
   {
@@ -1147,8 +1057,8 @@
     "title": "Manager Restoran",
     "company": "Miesop Polonia",
     "firstSeen": "2026-08-03T05:02:22.444Z",
-    "lastSeen": "2026-08-19T08:02:11.547Z",
-    "seenCount": 189,
+    "lastSeen": "2026-08-19T11:02:03.077Z",
+    "seenCount": 190,
     "lastNotified": "2026-08-03T05:02:22.444Z"
   },
   {
@@ -1462,8 +1372,8 @@
     "title": "Senior Business Development",
     "company": "Teras Digital Kreasi",
     "firstSeen": "2026-08-03T09:39:04.355Z",
-    "lastSeen": "2026-08-19T08:01:06.453Z",
-    "seenCount": 183,
+    "lastSeen": "2026-08-19T11:01:01.331Z",
+    "seenCount": 184,
     "lastNotified": "2026-08-03T09:39:04.355Z"
   },
   {
@@ -1480,8 +1390,8 @@
     "title": "Sales Marketing",
     "company": "PT Teknindopuri Ampuhperkasa",
     "firstSeen": "2026-08-03T11:01:38.368Z",
-    "lastSeen": "2026-08-19T08:01:35.999Z",
-    "seenCount": 206,
+    "lastSeen": "2026-08-19T11:01:32.761Z",
+    "seenCount": 207,
     "lastNotified": "2026-08-03T11:01:38.368Z"
   },
   {
@@ -1498,8 +1408,8 @@
     "title": "Staff Ticketing",
     "company": "Shine Tour & Travel",
     "firstSeen": "2026-08-03T11:03:05.999Z",
-    "lastSeen": "2026-08-04T02:03:16.374Z",
-    "seenCount": 7,
+    "lastSeen": "2026-08-19T11:02:56.175Z",
+    "seenCount": 8,
     "lastNotified": "2026-08-03T11:03:05.999Z"
   },
   {
@@ -1570,8 +1480,8 @@
     "title": "WEB-IT DEVELOPMENT",
     "company": "PT. Bersama Rezeki Makmur (Ciptaland Development)",
     "firstSeen": "2026-08-03T14:02:06.131Z",
-    "lastSeen": "2026-08-19T08:02:11.547Z",
-    "seenCount": 183,
+    "lastSeen": "2026-08-19T11:02:03.077Z",
+    "seenCount": 184,
     "lastNotified": "2026-08-03T14:02:06.131Z"
   },
   {
@@ -1687,8 +1597,8 @@
     "title": "MARKETING EXECUTIVE",
     "company": "PT Mitra Cipta Makmur",
     "firstSeen": "2026-08-04T02:01:45.232Z",
-    "lastSeen": "2026-08-19T08:01:35.999Z",
-    "seenCount": 238,
+    "lastSeen": "2026-08-19T11:01:32.761Z",
+    "seenCount": 239,
     "lastNotified": "2026-08-04T02:01:45.232Z"
   },
   {
@@ -2227,8 +2137,8 @@
     "title": "Project Manager",
     "company": "PT Tripola Panata",
     "firstSeen": "2026-08-05T05:02:19.794Z",
-    "lastSeen": "2026-08-19T08:02:11.548Z",
-    "seenCount": 172,
+    "lastSeen": "2026-08-19T11:02:03.077Z",
+    "seenCount": 173,
     "lastNotified": "2026-08-05T05:02:19.794Z"
   },
   {
@@ -2245,8 +2155,8 @@
     "title": "Sales Consultant",
     "company": "PT Sardana Indah Berlian Motor",
     "firstSeen": "2026-08-05T05:03:16.492Z",
-    "lastSeen": "2026-08-14T02:03:11.632Z",
-    "seenCount": 88,
+    "lastSeen": "2026-08-19T11:01:01.330Z",
+    "seenCount": 89,
     "lastNotified": "2026-08-05T05:03:16.492Z"
   },
   {
@@ -2353,8 +2263,8 @@
     "title": "Staff Purchasing",
     "company": "CV Dinamika Artha Persada",
     "firstSeen": "2026-08-05T08:01:57.993Z",
-    "lastSeen": "2026-08-19T08:01:52.298Z",
-    "seenCount": 276,
+    "lastSeen": "2026-08-19T11:01:48.677Z",
+    "seenCount": 277,
     "lastNotified": "2026-08-05T08:01:57.993Z"
   },
   {
@@ -2533,8 +2443,8 @@
     "title": "Sales Promotion Girl",
     "company": "BROTH MASTER",
     "firstSeen": "2026-08-05T14:02:57.452Z",
-    "lastSeen": "2026-08-19T08:02:42.196Z",
-    "seenCount": 345,
+    "lastSeen": "2026-08-19T11:02:29.458Z",
+    "seenCount": 347,
     "lastNotified": "2026-08-05T14:02:57.452Z"
   },
   {
@@ -2614,8 +2524,8 @@
     "title": "staff kitchen warkop medan",
     "company": "Warkop Berkah Recruiter",
     "firstSeen": "2026-08-05T14:03:53.831Z",
-    "lastSeen": "2026-08-19T08:01:52.298Z",
-    "seenCount": 141,
+    "lastSeen": "2026-08-19T11:01:48.678Z",
+    "seenCount": 142,
     "lastNotified": "2026-08-05T14:03:53.831Z"
   },
   {
@@ -2623,8 +2533,8 @@
     "title": "sales marketing",
     "company": "Halal Fun Consulting",
     "firstSeen": "2026-08-05T17:01:43.318Z",
-    "lastSeen": "2026-08-19T08:01:35.999Z",
-    "seenCount": 184,
+    "lastSeen": "2026-08-19T11:01:32.761Z",
+    "seenCount": 185,
     "lastNotified": "2026-08-05T17:01:43.318Z"
   },
   {
@@ -2632,8 +2542,8 @@
     "title": "Petugas Kebersihan / Cleaning Service",
     "company": "Thousands Good",
     "firstSeen": "2026-08-05T17:02:42.905Z",
-    "lastSeen": "2026-08-19T08:02:42.196Z",
-    "seenCount": 352,
+    "lastSeen": "2026-08-19T11:02:29.458Z",
+    "seenCount": 354,
     "lastNotified": "2026-08-05T17:02:42.905Z"
   },
   {
@@ -2740,8 +2650,8 @@
     "title": "International Trading Staff",
     "company": "PT CITRA HANNOCHS NIAGANTARA",
     "firstSeen": "2026-08-06T02:02:14.914Z",
-    "lastSeen": "2026-08-19T08:02:11.548Z",
-    "seenCount": 161,
+    "lastSeen": "2026-08-19T11:02:03.077Z",
+    "seenCount": 162,
     "lastNotified": "2026-08-06T02:02:14.914Z"
   },
   {
@@ -2767,8 +2677,8 @@
     "title": "staff showroom",
     "company": "PT NUSANTARA DOOR INDUSTRY",
     "firstSeen": "2026-08-06T05:01:50.832Z",
-    "lastSeen": "2026-08-19T08:01:52.298Z",
-    "seenCount": 199,
+    "lastSeen": "2026-08-19T11:01:48.677Z",
+    "seenCount": 200,
     "lastNotified": "2026-08-06T05:01:50.832Z"
   },
   {
@@ -2956,8 +2866,8 @@
     "title": "DIgital Marketing Specialist",
     "company": "Mana Aktiva Kreasi",
     "firstSeen": "2026-08-06T08:00:11.943Z",
-    "lastSeen": "2026-08-19T08:01:06.453Z",
-    "seenCount": 312,
+    "lastSeen": "2026-08-19T11:01:01.331Z",
+    "seenCount": 313,
     "lastNotified": "2026-08-06T08:00:11.943Z"
   },
   {
@@ -3037,8 +2947,8 @@
     "title": "Creative Digital Content Specialist",
     "company": "PT SURYAMAS PRIMA INDONESIA",
     "firstSeen": "2026-08-06T11:01:31.180Z",
-    "lastSeen": "2026-08-19T08:01:20.466Z",
-    "seenCount": 241,
+    "lastSeen": "2026-08-19T11:01:17.911Z",
+    "seenCount": 242,
     "lastNotified": "2026-08-06T11:01:31.180Z"
   },
   {
@@ -3046,8 +2956,8 @@
     "title": "Sales Promotor",
     "company": "PT. Kharisma Inside Mandiri Sejahtera",
     "firstSeen": "2026-08-06T11:02:22.849Z",
-    "lastSeen": "2026-08-19T08:02:11.547Z",
-    "seenCount": 167,
+    "lastSeen": "2026-08-19T11:02:03.077Z",
+    "seenCount": 168,
     "lastNotified": "2026-08-06T11:02:22.849Z"
   },
   {
@@ -3433,8 +3343,8 @@
     "title": "Cleaning Service (CS)",
     "company": "Rumah Sakit Dhillon",
     "firstSeen": "2026-08-07T05:02:44.879Z",
-    "lastSeen": "2026-08-19T08:03:26.996Z",
-    "seenCount": 384,
+    "lastSeen": "2026-08-19T11:02:29.458Z",
+    "seenCount": 386,
     "lastNotified": "2026-08-07T05:02:44.879Z"
   },
   {
@@ -3514,8 +3424,8 @@
     "title": "SPV & MARKETING BANKING - MEDAN",
     "company": "DANAMAS INSAN KREASI ANDALAN",
     "firstSeen": "2026-08-07T07:10:38.116Z",
-    "lastSeen": "2026-08-19T08:01:36.000Z",
-    "seenCount": 92,
+    "lastSeen": "2026-08-19T11:01:32.761Z",
+    "seenCount": 93,
     "lastNotified": "2026-08-07T07:10:38.116Z"
   },
   {
@@ -3559,8 +3469,8 @@
     "title": "Content Footage Collector (Roblox)",
     "company": "Exstore",
     "firstSeen": "2026-08-07T07:12:06.729Z",
-    "lastSeen": "2026-08-19T08:01:06.453Z",
-    "seenCount": 109,
+    "lastSeen": "2026-08-19T11:01:01.331Z",
+    "seenCount": 110,
     "lastNotified": "2026-08-07T07:12:06.729Z"
   },
   {
@@ -3586,8 +3496,8 @@
     "title": "Asisten Pelaporan Proyek",
     "company": "CV Arca Makmur Abadi",
     "firstSeen": "2026-08-07T08:02:18.521Z",
-    "lastSeen": "2026-08-19T08:02:11.548Z",
-    "seenCount": 151,
+    "lastSeen": "2026-08-19T11:02:03.077Z",
+    "seenCount": 152,
     "lastNotified": "2026-08-07T08:02:18.521Z"
   },
   {
@@ -3631,8 +3541,8 @@
     "title": "Marketing",
     "company": "Kebun Green Feast",
     "firstSeen": "2026-08-07T11:01:43.723Z",
-    "lastSeen": "2026-08-19T08:01:35.999Z",
-    "seenCount": 176,
+    "lastSeen": "2026-08-19T11:01:32.761Z",
+    "seenCount": 177,
     "lastNotified": "2026-08-07T11:01:43.723Z"
   },
   {
@@ -3640,8 +3550,8 @@
     "title": "Admin Customer Service",
     "company": "Seakun (PT Seakun Global Teknologi)",
     "firstSeen": "2026-08-07T11:02:45.854Z",
-    "lastSeen": "2026-08-19T08:02:42.195Z",
-    "seenCount": 173,
+    "lastSeen": "2026-08-19T11:02:29.458Z",
+    "seenCount": 174,
     "lastNotified": "2026-08-07T11:02:45.854Z"
   },
   {
@@ -3901,8 +3811,8 @@
     "title": "Staff Gudang - Retail Penempatan Luar Daerah",
     "company": "Zevan Sparepart",
     "firstSeen": "2026-08-08T02:03:23.780Z",
-    "lastSeen": "2026-08-19T08:01:52.298Z",
-    "seenCount": 159,
+    "lastSeen": "2026-08-19T11:01:48.678Z",
+    "seenCount": 160,
     "lastNotified": "2026-08-08T02:03:23.780Z"
   },
   {
@@ -3991,8 +3901,8 @@
     "title": "Supervisor",
     "company": "CV. Al-Baasith",
     "firstSeen": "2026-08-08T05:41:18.380Z",
-    "lastSeen": "2026-08-19T08:02:42.196Z",
-    "seenCount": 165,
+    "lastSeen": "2026-08-19T11:02:29.458Z",
+    "seenCount": 166,
     "lastNotified": "2026-08-08T05:41:18.380Z"
   },
   {
@@ -4018,8 +3928,8 @@
     "title": "Social Media Specialist",
     "company": "PT Katiga Ritel Strengindo (K3MART)",
     "firstSeen": "2026-08-08T06:44:37.512Z",
-    "lastSeen": "2026-08-19T08:01:06.454Z",
-    "seenCount": 289,
+    "lastSeen": "2026-08-19T11:01:01.331Z",
+    "seenCount": 291,
     "lastNotified": "2026-08-08T06:44:37.512Z"
   },
   {
@@ -4108,8 +4018,8 @@
     "title": "Staff Adm / Administrasi",
     "company": "Thousands Good",
     "firstSeen": "2026-08-08T11:01:58.272Z",
-    "lastSeen": "2026-08-19T08:02:42.196Z",
-    "seenCount": 275,
+    "lastSeen": "2026-08-19T11:02:29.458Z",
+    "seenCount": 277,
     "lastNotified": "2026-08-08T11:01:58.272Z"
   },
   {
@@ -4135,8 +4045,8 @@
     "title": "Administrasi",
     "company": "CV ASIA MAKMUR PERKASA",
     "firstSeen": "2026-08-08T14:02:32.323Z",
-    "lastSeen": "2026-08-19T08:03:26.996Z",
-    "seenCount": 146,
+    "lastSeen": "2026-08-19T11:02:29.458Z",
+    "seenCount": 148,
     "lastNotified": "2026-08-08T14:02:32.323Z"
   },
   {
@@ -4387,8 +4297,8 @@
     "title": "Marketing Surveyor",
     "company": "PT. FAM INOVASI INDONESIA",
     "firstSeen": "2026-08-10T02:01:40.673Z",
-    "lastSeen": "2026-08-19T08:03:08.463Z",
-    "seenCount": 10,
+    "lastSeen": "2026-08-19T11:01:32.761Z",
+    "seenCount": 11,
     "lastNotified": "2026-08-10T02:01:40.673Z"
   },
   {
@@ -4423,8 +4333,8 @@
     "title": "Guru Pendamping Khusus",
     "company": "Sekolah Chandra Kumala",
     "firstSeen": "2026-08-10T03:50:51.586Z",
-    "lastSeen": "2026-08-19T08:01:20.465Z",
-    "seenCount": 124,
+    "lastSeen": "2026-08-19T11:01:17.911Z",
+    "seenCount": 125,
     "lastNotified": "2026-08-10T03:50:51.586Z"
   },
   {
@@ -4792,8 +4702,8 @@
     "title": "Tim Packing Sales",
     "company": "Gudang Jaknot Medan",
     "firstSeen": "2026-08-10T08:03:04.523Z",
-    "lastSeen": "2026-08-19T08:02:11.547Z",
-    "seenCount": 115,
+    "lastSeen": "2026-08-19T11:02:03.077Z",
+    "seenCount": 116,
     "lastNotified": "2026-08-10T08:03:04.523Z"
   },
   {
@@ -4864,8 +4774,8 @@
     "title": "Sales Medan",
     "company": "PT. Sumber Digital Media",
     "firstSeen": "2026-08-10T11:01:17.197Z",
-    "lastSeen": "2026-08-19T08:01:06.453Z",
-    "seenCount": 117,
+    "lastSeen": "2026-08-19T11:01:01.330Z",
+    "seenCount": 118,
     "lastNotified": "2026-08-10T11:01:17.197Z"
   },
   {
@@ -4963,8 +4873,8 @@
     "title": "Social Media & Content Specialist",
     "company": "Spring Team - Juvina T***",
     "firstSeen": "2026-08-10T14:01:36.138Z",
-    "lastSeen": "2026-08-19T08:01:20.466Z",
-    "seenCount": 249,
+    "lastSeen": "2026-08-19T11:01:17.911Z",
+    "seenCount": 251,
     "lastNotified": "2026-08-10T14:01:36.138Z"
   },
   {
@@ -5179,8 +5089,8 @@
     "title": "Supervisor Marketing Sepeda Motor Honda - Cab Sunggal",
     "company": "Nusantara Sakti Group",
     "firstSeen": "2026-08-11T02:03:27.053Z",
-    "lastSeen": "2026-08-19T08:01:52.298Z",
-    "seenCount": 153,
+    "lastSeen": "2026-08-19T11:01:48.678Z",
+    "seenCount": 154,
     "lastNotified": "2026-08-11T02:03:27.053Z"
   },
   {
@@ -5233,8 +5143,8 @@
     "title": "AFFILIATOR SPECIALIST",
     "company": "Geeta Estetika",
     "firstSeen": "2026-08-11T03:40:41.912Z",
-    "lastSeen": "2026-08-19T08:01:06.453Z",
-    "seenCount": 115,
+    "lastSeen": "2026-08-19T11:01:01.330Z",
+    "seenCount": 116,
     "lastNotified": "2026-08-11T03:40:41.912Z"
   },
   {
@@ -5242,8 +5152,8 @@
     "title": "Sales Account",
     "company": "TANAKA GRAHA INDONESIA",
     "firstSeen": "2026-08-11T03:43:44.785Z",
-    "lastSeen": "2026-08-11T06:15:36.345Z",
-    "seenCount": 2,
+    "lastSeen": "2026-08-19T11:02:58.886Z",
+    "seenCount": 3,
     "lastNotified": "2026-08-11T03:43:44.785Z"
   },
   {
@@ -5323,8 +5233,8 @@
     "title": "Technical Support (OSS Staff)",
     "company": "Iweka Digital Solusi",
     "firstSeen": "2026-08-11T05:02:36.471Z",
-    "lastSeen": "2026-08-19T08:02:11.547Z",
-    "seenCount": 108,
+    "lastSeen": "2026-08-19T11:02:03.077Z",
+    "seenCount": 109,
     "lastNotified": "2026-08-11T05:02:36.471Z"
   },
   {
@@ -5593,8 +5503,8 @@
     "title": "Sales Marketing Area Lintas Sumatera Utara",
     "company": "PT. Grahaa Makmur Korporindo (G-Power Indonesia)",
     "firstSeen": "2026-08-11T08:01:55.426Z",
-    "lastSeen": "2026-08-19T08:01:52.298Z",
-    "seenCount": 106,
+    "lastSeen": "2026-08-19T11:01:48.678Z",
+    "seenCount": 107,
     "lastNotified": "2026-08-11T08:01:55.426Z"
   },
   {
@@ -5692,8 +5602,8 @@
     "title": "MARKETING OFFICER",
     "company": "PT Mandiri Andalan Utama Surabaya",
     "firstSeen": "2026-08-11T11:01:40.947Z",
-    "lastSeen": "2026-08-19T08:01:35.999Z",
-    "seenCount": 111,
+    "lastSeen": "2026-08-19T11:01:32.761Z",
+    "seenCount": 112,
     "lastNotified": "2026-08-11T11:01:40.947Z"
   },
   {
@@ -5917,8 +5827,8 @@
     "title": "Credit Marketing Officer",
     "company": "PT. Internusa Tribuana Citra Multi Finance (ITC Multi Finance)",
     "firstSeen": "2026-08-12T04:04:29.523Z",
-    "lastSeen": "2026-08-19T08:01:35.999Z",
-    "seenCount": 101,
+    "lastSeen": "2026-08-19T11:01:32.761Z",
+    "seenCount": 102,
     "lastNotified": "2026-08-12T04:04:29.523Z"
   },
   {
@@ -5926,8 +5836,8 @@
     "title": "SALES INDOOR (Kaca, Aluminium, UPVC)",
     "company": "PT ERA LIMA INTI JAYA",
     "firstSeen": "2026-08-12T04:05:31.853Z",
-    "lastSeen": "2026-08-19T08:02:42.196Z",
-    "seenCount": 143,
+    "lastSeen": "2026-08-19T11:02:29.458Z",
+    "seenCount": 144,
     "lastNotified": "2026-08-12T04:05:31.853Z"
   },
   {
@@ -6124,8 +6034,8 @@
     "title": "Asisten Manager",
     "company": "Gemilang Moda Busana",
     "firstSeen": "2026-08-12T07:20:14.068Z",
-    "lastSeen": "2026-08-19T08:02:42.195Z",
-    "seenCount": 157,
+    "lastSeen": "2026-08-19T11:02:29.458Z",
+    "seenCount": 158,
     "lastNotified": "2026-08-12T07:20:14.068Z"
   },
   {
@@ -6313,8 +6223,8 @@
     "title": "Digital Marketing",
     "company": "Harford Institute",
     "firstSeen": "2026-08-12T14:01:47.536Z",
-    "lastSeen": "2026-08-19T08:01:36.000Z",
-    "seenCount": 201,
+    "lastSeen": "2026-08-19T11:01:32.761Z",
+    "seenCount": 203,
     "lastNotified": "2026-08-12T14:01:47.536Z"
   },
   {
@@ -6322,8 +6232,8 @@
     "title": "PROMOTOR HANDPHONE (MEDAN)",
     "company": "PT Accentuates",
     "firstSeen": "2026-08-12T14:03:10.316Z",
-    "lastSeen": "2026-08-18T05:26:48.064Z",
-    "seenCount": 19,
+    "lastSeen": "2026-08-19T11:02:58.887Z",
+    "seenCount": 20,
     "lastNotified": "2026-08-12T14:03:10.316Z"
   },
   {
@@ -6484,8 +6394,8 @@
     "title": "English Teacher",
     "company": "I CAN READ Indonesia",
     "firstSeen": "2026-08-13T05:01:23.846Z",
-    "lastSeen": "2026-08-19T08:01:20.465Z",
-    "seenCount": 148,
+    "lastSeen": "2026-08-19T11:01:17.911Z",
+    "seenCount": 149,
     "lastNotified": "2026-08-13T05:01:23.846Z"
   },
   {
@@ -6592,8 +6502,8 @@
     "title": "Document Field Staff",
     "company": "PT. Cakraindo Mitra Internasional",
     "firstSeen": "2026-08-13T07:23:24.173Z",
-    "lastSeen": "2026-08-13T08:03:22.100Z",
-    "seenCount": 2,
+    "lastSeen": "2026-08-19T11:02:58.887Z",
+    "seenCount": 3,
     "lastNotified": "2026-08-13T07:23:24.173Z"
   },
   {
@@ -6655,8 +6565,8 @@
     "title": "Marketing Development",
     "company": "PT.Satu Sekop Es Krim",
     "firstSeen": "2026-08-13T11:01:25.427Z",
-    "lastSeen": "2026-08-19T08:01:52.298Z",
-    "seenCount": 287,
+    "lastSeen": "2026-08-19T11:01:48.678Z",
+    "seenCount": 291,
     "lastNotified": "2026-08-13T11:01:25.427Z"
   },
   {
@@ -6664,8 +6574,8 @@
     "title": "Kepala Divisi Marketing",
     "company": "SAMERA GROUP",
     "firstSeen": "2026-08-13T11:01:46.976Z",
-    "lastSeen": "2026-08-19T08:01:35.999Z",
-    "seenCount": 83,
+    "lastSeen": "2026-08-19T11:01:32.761Z",
+    "seenCount": 84,
     "lastNotified": "2026-08-13T11:01:46.976Z"
   },
   {
@@ -6673,8 +6583,8 @@
     "title": "Digital Marketing (Content Specialist)",
     "company": "Apique Creative Studio",
     "firstSeen": "2026-08-13T11:01:46.976Z",
-    "lastSeen": "2026-08-19T08:01:36.000Z",
-    "seenCount": 105,
+    "lastSeen": "2026-08-19T11:01:32.761Z",
+    "seenCount": 106,
     "lastNotified": "2026-08-13T11:01:46.976Z"
   },
   {
@@ -6682,8 +6592,8 @@
     "title": "Staff Budget Cost Control",
     "company": "PT Hokinda Citralestari",
     "firstSeen": "2026-08-13T11:02:05.157Z",
-    "lastSeen": "2026-08-19T08:01:52.298Z",
-    "seenCount": 137,
+    "lastSeen": "2026-08-19T11:01:48.677Z",
+    "seenCount": 138,
     "lastNotified": "2026-08-13T11:02:05.157Z"
   },
   {
@@ -6691,8 +6601,8 @@
     "title": "Cleaning Service",
     "company": "PT. Union Tetap Jaya",
     "firstSeen": "2026-08-13T11:02:51.791Z",
-    "lastSeen": "2026-08-19T08:02:42.196Z",
-    "seenCount": 211,
+    "lastSeen": "2026-08-19T11:02:29.458Z",
+    "seenCount": 213,
     "lastNotified": "2026-08-13T11:02:51.791Z"
   },
   {
@@ -6745,8 +6655,8 @@
     "title": "GURU MATEMATIKA",
     "company": "CV BEST EDUCATION CENTER",
     "firstSeen": "2026-08-13T14:02:31.754Z",
-    "lastSeen": "2026-08-19T08:02:11.547Z",
-    "seenCount": 86,
+    "lastSeen": "2026-08-19T11:02:03.077Z",
+    "seenCount": 87,
     "lastNotified": "2026-08-13T14:02:31.754Z"
   },
   {
@@ -6817,8 +6727,8 @@
     "title": "Supervisor Sales Medan",
     "company": "PT Hokinda Citralestari",
     "firstSeen": "2026-08-13T14:03:50.217Z",
-    "lastSeen": "2026-08-19T08:01:52.298Z",
-    "seenCount": 77,
+    "lastSeen": "2026-08-19T11:01:48.678Z",
+    "seenCount": 78,
     "lastNotified": "2026-08-13T14:03:50.217Z"
   },
   {
@@ -6835,8 +6745,8 @@
     "title": "Supervisor Marketing Pembiayaan Multiguna - Cab Sunggal",
     "company": "Nusantara Sakti Group",
     "firstSeen": "2026-08-13T17:01:55.288Z",
-    "lastSeen": "2026-08-19T08:01:52.298Z",
-    "seenCount": 78,
+    "lastSeen": "2026-08-19T11:01:48.678Z",
+    "seenCount": 79,
     "lastNotified": "2026-08-13T17:01:55.288Z"
   },
   {
@@ -6889,8 +6799,8 @@
     "title": "Reporter / Content Journalist (Digital)",
     "company": "CV Dose Retail Indonesia",
     "firstSeen": "2026-08-14T04:04:27.582Z",
-    "lastSeen": "2026-08-19T08:01:06.454Z",
-    "seenCount": 77,
+    "lastSeen": "2026-08-19T11:01:01.331Z",
+    "seenCount": 78,
     "lastNotified": "2026-08-14T04:04:27.582Z"
   },
   {
@@ -6898,8 +6808,8 @@
     "title": "Video Content Creator",
     "company": "ROYALWORKS contractor",
     "firstSeen": "2026-08-14T04:04:44.878Z",
-    "lastSeen": "2026-08-19T08:02:42.196Z",
-    "seenCount": 204,
+    "lastSeen": "2026-08-19T11:02:29.458Z",
+    "seenCount": 206,
     "lastNotified": "2026-08-14T04:04:44.878Z"
   },
   {
@@ -6907,8 +6817,8 @@
     "title": "Video Content Creator",
     "company": "PT Muning Trade International",
     "firstSeen": "2026-08-14T04:04:44.878Z",
-    "lastSeen": "2026-08-19T08:01:20.466Z",
-    "seenCount": 122,
+    "lastSeen": "2026-08-19T11:01:17.911Z",
+    "seenCount": 123,
     "lastNotified": "2026-08-14T04:04:44.878Z"
   },
   {
@@ -6916,8 +6826,8 @@
     "title": "STAFF ADMIN",
     "company": "PT Damai Abadi",
     "firstSeen": "2026-08-14T04:05:19.311Z",
-    "lastSeen": "2026-08-19T08:02:42.195Z",
-    "seenCount": 258,
+    "lastSeen": "2026-08-19T11:02:29.458Z",
+    "seenCount": 261,
     "lastNotified": "2026-08-14T04:05:19.311Z"
   },
   {
@@ -7114,8 +7024,8 @@
     "title": "Marketing Manufactur",
     "company": "PT.Kreasibenton Nusapersada",
     "firstSeen": "2026-08-14T07:19:13.598Z",
-    "lastSeen": "2026-08-19T08:01:35.999Z",
-    "seenCount": 80,
+    "lastSeen": "2026-08-19T11:01:32.761Z",
+    "seenCount": 81,
     "lastNotified": "2026-08-14T07:19:13.598Z"
   },
   {
@@ -7123,8 +7033,8 @@
     "title": "Sales Consultant B2B",
     "company": "PT. Logikreasi Utama",
     "firstSeen": "2026-08-14T07:19:46.995Z",
-    "lastSeen": "2026-08-19T08:02:11.547Z",
-    "seenCount": 81,
+    "lastSeen": "2026-08-19T11:02:03.077Z",
+    "seenCount": 82,
     "lastNotified": "2026-08-14T07:19:46.995Z"
   },
   {
@@ -7177,8 +7087,8 @@
     "title": "Content Creator & Social Media Admin",
     "company": "BAQA Cafe & Resto",
     "firstSeen": "2026-08-14T11:01:06.426Z",
-    "lastSeen": "2026-08-19T08:01:06.453Z",
-    "seenCount": 76,
+    "lastSeen": "2026-08-19T11:01:01.330Z",
+    "seenCount": 77,
     "lastNotified": "2026-08-14T11:01:06.426Z"
   },
   {
@@ -7303,8 +7213,8 @@
     "title": "Maintenance Staff",
     "company": "Pondok Pesantren Modern Darul Ihsan - Muhammad F***",
     "firstSeen": "2026-08-14T17:01:49.468Z",
-    "lastSeen": "2026-08-19T08:03:26.996Z",
-    "seenCount": 211,
+    "lastSeen": "2026-08-19T11:02:29.458Z",
+    "seenCount": 213,
     "lastNotified": "2026-08-14T17:01:49.468Z"
   },
   {
@@ -7348,8 +7258,8 @@
     "title": "Spesialis Technical Support/Teknisi",
     "company": "Nextcam eksindo semesta",
     "firstSeen": "2026-08-15T02:01:58.877Z",
-    "lastSeen": "2026-08-19T08:02:11.547Z",
-    "seenCount": 64,
+    "lastSeen": "2026-08-19T11:02:03.077Z",
+    "seenCount": 65,
     "lastNotified": "2026-08-15T02:01:58.877Z"
   },
   {
@@ -7483,8 +7393,8 @@
     "title": "Social Media Content Specialist",
     "company": "Satwa Indonesia Sehat",
     "firstSeen": "2026-08-15T08:01:05.590Z",
-    "lastSeen": "2026-08-19T08:01:06.453Z",
-    "seenCount": 70,
+    "lastSeen": "2026-08-19T11:01:01.330Z",
+    "seenCount": 71,
     "lastNotified": "2026-08-15T08:01:05.590Z"
   },
   {
@@ -7654,8 +7564,8 @@
     "title": "Social Media Specialist",
     "company": "Exstore",
     "firstSeen": "2026-08-15T14:01:39.381Z",
-    "lastSeen": "2026-08-19T08:01:06.454Z",
-    "seenCount": 141,
+    "lastSeen": "2026-08-19T11:01:01.331Z",
+    "seenCount": 143,
     "lastNotified": "2026-08-15T14:01:39.381Z"
   },
   {
@@ -7663,8 +7573,8 @@
     "title": "Desain Grafis (GRAPHIC DESIGN)",
     "company": "Exstore",
     "firstSeen": "2026-08-15T14:01:39.382Z",
-    "lastSeen": "2026-08-19T08:01:06.453Z",
-    "seenCount": 88,
+    "lastSeen": "2026-08-19T11:01:01.330Z",
+    "seenCount": 89,
     "lastNotified": "2026-08-15T14:01:39.382Z"
   },
   {
@@ -7672,8 +7582,8 @@
     "title": "Konten Kreator Mobile Legends (Content Creator)",
     "company": "Exstore",
     "firstSeen": "2026-08-15T14:04:21.303Z",
-    "lastSeen": "2026-08-19T08:01:06.453Z",
-    "seenCount": 87,
+    "lastSeen": "2026-08-19T11:01:01.330Z",
+    "seenCount": 88,
     "lastNotified": "2026-08-15T14:04:21.303Z"
   },
   {
@@ -7690,8 +7600,8 @@
     "title": "Sosial Media Spesialis",
     "company": "PT Tumbuh Bersama Kolaboraksi",
     "firstSeen": "2026-08-15T17:00:56.757Z",
-    "lastSeen": "2026-08-19T08:01:06.453Z",
-    "seenCount": 85,
+    "lastSeen": "2026-08-19T11:01:01.330Z",
+    "seenCount": 86,
     "lastNotified": "2026-08-15T17:00:56.757Z"
   },
   {
@@ -7735,8 +7645,8 @@
     "title": "ADMIN EVENT (PENEMPATAN LUAR KOTA)",
     "company": "FUNDERLAND INDONESIA",
     "firstSeen": "2026-08-16T02:02:31.843Z",
-    "lastSeen": "2026-08-19T08:03:26.996Z",
-    "seenCount": 103,
+    "lastSeen": "2026-08-19T11:02:29.458Z",
+    "seenCount": 104,
     "lastNotified": "2026-08-16T02:02:31.843Z"
   },
   {
@@ -7771,8 +7681,8 @@
     "title": "CAFE SUPERVISOR",
     "company": "BAQA Cafe & Resto",
     "firstSeen": "2026-08-16T14:00:57.923Z",
-    "lastSeen": "2026-08-19T08:01:06.453Z",
-    "seenCount": 60,
+    "lastSeen": "2026-08-19T11:01:01.331Z",
+    "seenCount": 61,
     "lastNotified": "2026-08-16T14:00:57.923Z"
   },
   {
@@ -7924,8 +7834,8 @@
     "title": "Spesialis Document Control",
     "company": "PT TARZAN BARA ABADI",
     "firstSeen": "2026-08-18T02:53:49.193Z",
-    "lastSeen": "2026-08-19T08:03:26.996Z",
-    "seenCount": 42,
+    "lastSeen": "2026-08-19T11:02:29.458Z",
+    "seenCount": 43,
     "lastNotified": "2026-08-18T02:53:49.193Z"
   },
   {
@@ -7933,8 +7843,8 @@
     "title": "Assistant Manager",
     "company": "PT TARZAN BARA ABADI",
     "firstSeen": "2026-08-18T02:53:49.193Z",
-    "lastSeen": "2026-08-19T08:03:26.996Z",
-    "seenCount": 42,
+    "lastSeen": "2026-08-19T11:02:29.458Z",
+    "seenCount": 43,
     "lastNotified": "2026-08-18T02:53:49.193Z"
   },
   {
@@ -7942,8 +7852,8 @@
     "title": "Asisten Produksi (Mandarin Speaker)",
     "company": "PT TARZAN BARA ABADI",
     "firstSeen": "2026-08-18T02:53:49.193Z",
-    "lastSeen": "2026-08-19T08:03:26.996Z",
-    "seenCount": 40,
+    "lastSeen": "2026-08-19T11:02:29.458Z",
+    "seenCount": 41,
     "lastNotified": "2026-08-18T02:53:49.193Z"
   },
   {
@@ -8032,8 +7942,8 @@
     "title": "sales",
     "company": "PT. CENDANA PUTERA LESTARI",
     "firstSeen": "2026-08-18T04:32:57.762Z",
-    "lastSeen": "2026-08-19T08:03:26.996Z",
-    "seenCount": 41,
+    "lastSeen": "2026-08-19T11:02:29.458Z",
+    "seenCount": 42,
     "lastNotified": "2026-08-18T04:32:57.762Z"
   },
   {
@@ -8212,8 +8122,8 @@
     "title": "Staff IT",
     "company": "PT.Kreasibenton Nusapersada",
     "firstSeen": "2026-08-18T05:56:11.112Z",
-    "lastSeen": "2026-08-19T08:02:11.548Z",
-    "seenCount": 21,
+    "lastSeen": "2026-08-19T11:02:03.078Z",
+    "seenCount": 23,
     "lastNotified": "2026-08-18T05:56:11.112Z"
   },
   {
@@ -8230,8 +8140,8 @@
     "title": "Social Media Outreach Intern",
     "company": "JOGJACAMP",
     "firstSeen": "2026-08-18T06:36:45.190Z",
-    "lastSeen": "2026-08-19T08:01:06.453Z",
-    "seenCount": 17,
+    "lastSeen": "2026-08-19T11:01:01.330Z",
+    "seenCount": 18,
     "lastNotified": "2026-08-18T06:36:45.190Z"
   },
   {
@@ -8311,8 +8221,8 @@
     "title": "Staf Ads",
     "company": "Dapoer Rumah AK",
     "firstSeen": "2026-08-18T08:00:59.768Z",
-    "lastSeen": "2026-08-19T08:01:06.453Z",
-    "seenCount": 15,
+    "lastSeen": "2026-08-19T11:01:01.331Z",
+    "seenCount": 16,
     "lastNotified": "2026-08-18T08:00:59.768Z"
   },
   {
@@ -8320,8 +8230,8 @@
     "title": "Field Education Consultant - Lubuk Pakam - Tengku Raja Muda",
     "company": "Ruangguru",
     "firstSeen": "2026-08-18T08:01:16.680Z",
-    "lastSeen": "2026-08-19T08:03:26.996Z",
-    "seenCount": 32,
+    "lastSeen": "2026-08-19T11:01:17.911Z",
+    "seenCount": 33,
     "lastNotified": "2026-08-18T08:01:16.680Z"
   },
   {
@@ -8329,8 +8239,8 @@
     "title": "Technical Writer Intern",
     "company": "Iweka Digital Solusi",
     "firstSeen": "2026-08-18T08:02:05.212Z",
-    "lastSeen": "2026-08-19T08:02:11.547Z",
-    "seenCount": 15,
+    "lastSeen": "2026-08-19T11:02:03.077Z",
+    "seenCount": 16,
     "lastNotified": "2026-08-18T08:02:05.212Z"
   },
   {
@@ -8338,8 +8248,8 @@
     "title": "Backend Engineer (Onsite in Medan)",
     "company": "PT Inovasi Jelajah Dunia",
     "firstSeen": "2026-08-18T08:02:19.277Z",
-    "lastSeen": "2026-08-19T08:03:26.996Z",
-    "seenCount": 47,
+    "lastSeen": "2026-08-19T11:02:13.882Z",
+    "seenCount": 49,
     "lastNotified": "2026-08-18T08:02:19.277Z"
   },
   {
@@ -8401,8 +8311,8 @@
     "title": "PENJAGA TOKO",
     "company": "PT. KOTARAJA TANOH PUSAKA",
     "firstSeen": "2026-08-18T11:02:26.943Z",
-    "lastSeen": "2026-08-19T08:03:26.996Z",
-    "seenCount": 31,
+    "lastSeen": "2026-08-19T11:02:29.458Z",
+    "seenCount": 32,
     "lastNotified": "2026-08-18T11:02:26.943Z"
   },
   {
@@ -8491,8 +8401,8 @@
     "title": "IT Operations Engineer",
     "company": "Teras Digital Kreasi",
     "firstSeen": "2026-08-18T14:02:24.589Z",
-    "lastSeen": "2026-08-19T08:04:38.476Z",
-    "seenCount": 57,
+    "lastSeen": "2026-08-19T11:02:03.077Z",
+    "seenCount": 58,
     "lastNotified": "2026-08-18T14:02:24.589Z"
   },
   {
@@ -8581,8 +8491,8 @@
     "title": "Digital Marketing / Head of Digital Marketing",
     "company": "PT. SASING SOLUSI DIGITAL",
     "firstSeen": "2026-08-18T17:01:39.781Z",
-    "lastSeen": "2026-08-19T08:01:36.000Z",
-    "seenCount": 20,
+    "lastSeen": "2026-08-19T11:01:32.761Z",
+    "seenCount": 21,
     "lastNotified": "2026-08-18T17:01:39.781Z"
   },
   {
@@ -8590,8 +8500,8 @@
     "title": "spg spb pintu aluminium seluruh indonesia",
     "company": "PT JAYA OPTIMA INDO ENERGI",
     "firstSeen": "2026-08-18T17:03:06.759Z",
-    "lastSeen": "2026-08-19T03:47:15.190Z",
-    "seenCount": 7,
+    "lastSeen": "2026-08-19T11:02:58.886Z",
+    "seenCount": 8,
     "lastNotified": "2026-08-18T17:03:06.759Z"
   },
   {
@@ -8707,8 +8617,8 @@
     "title": "Freelance Content Creator (Remote)",
     "company": "PT Inovasi Jelajah Dunia",
     "firstSeen": "2026-08-19T02:53:55.164Z",
-    "lastSeen": "2026-08-19T08:04:38.475Z",
-    "seenCount": 41,
+    "lastSeen": "2026-08-19T11:01:17.911Z",
+    "seenCount": 43,
     "lastNotified": "2026-08-19T02:53:55.164Z"
   },
   {
@@ -8734,8 +8644,8 @@
     "title": "Marketing Area Medan Sumatera Utara",
     "company": "PT Surya Uni Prakarsa",
     "firstSeen": "2026-08-19T02:56:03.826Z",
-    "lastSeen": "2026-08-19T08:03:08.462Z",
-    "seenCount": 12,
+    "lastSeen": "2026-08-19T11:01:32.761Z",
+    "seenCount": 13,
     "lastNotified": "2026-08-19T02:56:03.826Z"
   },
   {
@@ -8923,8 +8833,8 @@
     "title": "Finance Accounting",
     "company": "PT Maxxi Agri Indonesia",
     "firstSeen": "2026-08-19T05:02:34.399Z",
-    "lastSeen": "2026-08-19T08:03:26.996Z",
-    "seenCount": 15,
+    "lastSeen": "2026-08-19T11:02:29.458Z",
+    "seenCount": 16,
     "lastNotified": "2026-08-19T05:02:34.399Z"
   },
   {
@@ -8959,8 +8869,8 @@
     "title": "Senior Production Staff",
     "company": "PT TARZAN BARA ABADI",
     "firstSeen": "2026-08-19T08:01:52.298Z",
-    "lastSeen": "2026-08-19T08:03:26.996Z",
-    "seenCount": 3,
+    "lastSeen": "2026-08-19T11:01:48.678Z",
+    "seenCount": 4,
     "lastNotified": "2026-08-19T08:01:52.298Z"
   },
   {
@@ -8968,8 +8878,8 @@
     "title": "Ahli Bahasa Arab",
     "company": "PT. PMB",
     "firstSeen": "2026-08-19T08:02:11.547Z",
-    "lastSeen": "2026-08-19T08:03:08.462Z",
-    "seenCount": 2,
+    "lastSeen": "2026-08-19T11:02:03.077Z",
+    "seenCount": 3,
     "lastNotified": "2026-08-19T08:02:11.547Z"
   },
   {
@@ -8998,5 +8908,95 @@
     "lastSeen": "2026-08-19T08:03:08.462Z",
     "seenCount": 1,
     "lastNotified": "2026-08-19T08:03:08.462Z"
+  },
+  {
+    "id": "digital marketing-pt pingan struktur baja",
+    "title": "Digital marketing",
+    "company": "PT PINGAN STRUKTUR BAJA",
+    "firstSeen": "2026-08-19T11:01:01.331Z",
+    "lastSeen": "2026-08-19T11:02:58.887Z",
+    "seenCount": 4,
+    "lastNotified": "2026-08-19T11:01:01.331Z"
+  },
+  {
+    "id": "frontliner sepeda listrik-pt. kotaraja tanoh pusaka",
+    "title": "FRONTLINER SEPEDA LISTRIK",
+    "company": "PT. KOTARAJA TANOH PUSAKA",
+    "firstSeen": "2026-08-19T11:02:29.458Z",
+    "lastSeen": "2026-08-19T11:02:29.458Z",
+    "seenCount": 1,
+    "lastNotified": "2026-08-19T11:02:29.458Z"
+  },
+  {
+    "id": "perawat-jpp skin laser clinic",
+    "title": "Perawat",
+    "company": "JPP Skin Laser Clinic",
+    "firstSeen": "2026-08-19T11:02:56.175Z",
+    "lastSeen": "2026-08-19T11:02:56.175Z",
+    "seenCount": 1,
+    "lastNotified": "2026-08-19T11:02:56.175Z"
+  },
+  {
+    "id": "security - penempatan medan-pt kinarya alihdaya mandiri",
+    "title": "Security - Penempatan Medan",
+    "company": "PT Kinarya Alihdaya Mandiri",
+    "firstSeen": "2026-08-19T11:02:56.175Z",
+    "lastSeen": "2026-08-19T11:02:56.175Z",
+    "seenCount": 1,
+    "lastNotified": "2026-08-19T11:02:56.175Z"
+  },
+  {
+    "id": "fashion sales advisor | medan-bina citra group",
+    "title": "Fashion Sales Advisor | Medan",
+    "company": "Bina Citra Group",
+    "firstSeen": "2026-08-19T11:02:56.175Z",
+    "lastSeen": "2026-08-19T11:02:56.175Z",
+    "seenCount": 1,
+    "lastNotified": "2026-08-19T11:02:56.175Z"
+  },
+  {
+    "id": "pengajar matematika smp-sma-ganesha operation medan, lubuk pakam, sei rampah",
+    "title": "PENGAJAR MATEMATIKA SMP-SMA",
+    "company": "Ganesha Operation Medan, Lubuk Pakam, Sei Rampah",
+    "firstSeen": "2026-08-19T11:02:56.175Z",
+    "lastSeen": "2026-08-19T11:02:56.175Z",
+    "seenCount": 1,
+    "lastNotified": "2026-08-19T11:02:56.175Z"
+  },
+  {
+    "id": "perawat luka profesional (4)-pt rumah perawatan indonesia",
+    "title": "Perawat Luka Profesional (4)",
+    "company": "PT Rumah Perawatan Indonesia",
+    "firstSeen": "2026-08-19T11:02:56.175Z",
+    "lastSeen": "2026-08-19T11:02:56.175Z",
+    "seenCount": 1,
+    "lastNotified": "2026-08-19T11:02:56.175Z"
+  },
+  {
+    "id": "arsitek-pt anugerah rejeki bersama",
+    "title": "Arsitek",
+    "company": "PT Anugerah Rejeki Bersama",
+    "firstSeen": "2026-08-19T11:02:58.887Z",
+    "lastSeen": "2026-08-19T11:02:58.887Z",
+    "seenCount": 1,
+    "lastNotified": "2026-08-19T11:02:58.887Z"
+  },
+  {
+    "id": "staff sipil-pt anugerah rejeki bersama",
+    "title": "Staff Sipil",
+    "company": "PT Anugerah Rejeki Bersama",
+    "firstSeen": "2026-08-19T11:02:58.887Z",
+    "lastSeen": "2026-08-19T11:02:58.887Z",
+    "seenCount": 1,
+    "lastNotified": "2026-08-19T11:02:58.887Z"
+  },
+  {
+    "id": "sales administrator-riko motorcycle parts",
+    "title": "Sales Administrator",
+    "company": "RIKO Motorcycle Parts",
+    "firstSeen": "2026-08-19T11:02:58.887Z",
+    "lastSeen": "2026-08-19T11:02:58.887Z",
+    "seenCount": 1,
+    "lastNotified": "2026-08-19T11:02:58.887Z"
   }
 ]
