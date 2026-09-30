@@ -1,14 +1,5 @@
 [
   {
-    "id": "admin laboratorium-itnano",
-    "title": "Admin Laboratorium",
-    "company": "ITNANO",
-    "firstSeen": "2026-09-09T08:02:59.202Z",
-    "lastSeen": "2026-09-09T23:02:58.775Z",
-    "seenCount": 3,
-    "lastNotified": "2026-09-09T08:02:59.202Z"
-  },
-  {
     "id": "sales taking order (medan)-sawargi langgeng sentosa",
     "title": "Sales Taking Order (Medan)",
     "company": "SAWARGI LANGGENG SENTOSA",
@@ -850,8 +841,8 @@
     "title": "Facebook",
     "company": "LokerMedan",
     "firstSeen": "2026-09-10T17:03:57.746Z",
-    "lastSeen": "2026-09-30T02:03:19.722Z",
-    "seenCount": 118,
+    "lastSeen": "2026-09-30T05:03:11.151Z",
+    "seenCount": 119,
     "lastNotified": "2026-09-10T17:03:57.746Z"
   },
   {
@@ -859,8 +850,8 @@
     "title": "Twitter",
     "company": "LokerMedan",
     "firstSeen": "2026-09-10T17:03:57.746Z",
-    "lastSeen": "2026-09-30T02:03:19.722Z",
-    "seenCount": 118,
+    "lastSeen": "2026-09-30T05:03:11.151Z",
+    "seenCount": 119,
     "lastNotified": "2026-09-10T17:03:57.746Z"
   },
   {
@@ -8887,8 +8878,8 @@
     "title": "RELATIONSHIP OFFICER PROGRAM",
     "company": "PT Bank Central Asia Tbk (BCA)",
     "firstSeen": "2026-09-29T05:01:00.804Z",
-    "lastSeen": "2026-09-30T02:04:08.853Z",
-    "seenCount": 212,
+    "lastSeen": "2026-09-30T05:03:56.014Z",
+    "seenCount": 238,
     "lastNotified": "2026-09-29T05:01:00.804Z"
   },
   {
@@ -8896,8 +8887,8 @@
     "title": "MANAGEMENT DEVELOPMENT PROGRAM (MDP)",
     "company": "PT Bank Central Asia Tbk (BCA)",
     "firstSeen": "2026-09-29T05:01:00.804Z",
-    "lastSeen": "2026-09-30T02:04:08.853Z",
-    "seenCount": 212,
+    "lastSeen": "2026-09-30T05:03:56.014Z",
+    "seenCount": 238,
     "lastNotified": "2026-09-29T05:01:00.804Z"
   },
   {
@@ -8959,8 +8950,8 @@
     "title": "FIELD COLLECTION BANK MANDIRI PENEMPATAN SUBANG",
     "company": "PT Puriasri Bhaktikarya",
     "firstSeen": "2026-09-29T11:01:07.739Z",
-    "lastSeen": "2026-09-30T02:04:08.853Z",
-    "seenCount": 156,
+    "lastSeen": "2026-09-30T05:03:56.014Z",
+    "seenCount": 182,
     "lastNotified": "2026-09-29T11:01:07.739Z"
   },
   {
@@ -8998,5 +8989,14 @@
     "lastSeen": "2026-09-30T02:04:08.853Z",
     "seenCount": 13,
     "lastNotified": "2026-09-30T02:01:04.478Z"
+  },
+  {
+    "id": "desk collection bank mandiri penempatan jakarta pusat-pt puriasri bhaktikarya",
+    "title": "DESK COLLECTION BANK MANDIRI PENEMPATAN JAKARTA PUSAT",
+    "company": "PT Puriasri Bhaktikarya",
+    "firstSeen": "2026-09-30T05:01:06.467Z",
+    "lastSeen": "2026-09-30T05:03:56.014Z",
+    "seenCount": 26,
+    "lastNotified": "2026-09-30T05:01:06.467Z"
   }
 ]
