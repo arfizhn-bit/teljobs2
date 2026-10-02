@@ -1,23 +1,5 @@
 [
   {
-    "id": "business development-pt alam bumi sumberdaya",
-    "title": "Business Development",
-    "company": "PT Alam Bumi Sumberdaya",
-    "firstSeen": "2026-09-09T08:03:01.928Z",
-    "lastSeen": "2026-09-09T08:03:01.928Z",
-    "seenCount": 1,
-    "lastNotified": "2026-09-09T08:03:01.928Z"
-  },
-  {
-    "id": "teknisi pengelasan mesin-pt swakarya insan mandiri kalimantan (sim group)",
-    "title": "TEKNISI PENGELASAN MESIN",
-    "company": "PT Swakarya Insan Mandiri Kalimantan (SIM Group)",
-    "firstSeen": "2026-09-09T08:03:01.929Z",
-    "lastSeen": "2026-09-09T08:03:01.929Z",
-    "seenCount": 1,
-    "lastNotified": "2026-09-09T08:03:01.929Z"
-  },
-  {
     "id": "team leader (kino international pte ltd)-company team staffinc - fenny h***",
     "title": "Team Leader (Kino International Pte Ltd)",
     "company": "Company team staffinc - Fenny H***",
@@ -823,8 +805,8 @@
     "title": "Facebook",
     "company": "LokerMedan",
     "firstSeen": "2026-09-10T17:03:57.746Z",
-    "lastSeen": "2026-10-02T08:02:58.887Z",
-    "seenCount": 138,
+    "lastSeen": "2026-10-02T11:03:28.549Z",
+    "seenCount": 139,
     "lastNotified": "2026-09-10T17:03:57.746Z"
   },
   {
@@ -832,8 +814,8 @@
     "title": "Twitter",
     "company": "LokerMedan",
     "firstSeen": "2026-09-10T17:03:57.746Z",
-    "lastSeen": "2026-10-02T08:02:58.887Z",
-    "seenCount": 138,
+    "lastSeen": "2026-10-02T11:03:28.549Z",
+    "seenCount": 139,
     "lastNotified": "2026-09-10T17:03:57.746Z"
   },
   {
@@ -8860,8 +8842,8 @@
     "title": "RELATIONSHIP OFFICER PROGRAM",
     "company": "PT Bank Central Asia Tbk (BCA)",
     "firstSeen": "2026-09-29T05:01:00.804Z",
-    "lastSeen": "2026-10-02T08:03:42.887Z",
-    "seenCount": 758,
+    "lastSeen": "2026-10-02T11:04:19.785Z",
+    "seenCount": 784,
     "lastNotified": "2026-09-29T05:01:00.804Z"
   },
   {
@@ -8869,8 +8851,8 @@
     "title": "MANAGEMENT DEVELOPMENT PROGRAM (MDP)",
     "company": "PT Bank Central Asia Tbk (BCA)",
     "firstSeen": "2026-09-29T05:01:00.804Z",
-    "lastSeen": "2026-10-02T08:03:42.887Z",
-    "seenCount": 758,
+    "lastSeen": "2026-10-02T11:04:19.785Z",
+    "seenCount": 784,
     "lastNotified": "2026-09-29T05:01:00.804Z"
   },
   {
@@ -8998,5 +8980,23 @@
     "lastSeen": "2026-10-02T08:03:42.887Z",
     "seenCount": 78,
     "lastNotified": "2026-10-02T05:01:00.446Z"
+  },
+  {
+    "id": "sales generalis bank mandiri penempatan kwala begumit-pt puriasri bhaktikarya",
+    "title": "SALES GENERALIS BANK MANDIRI PENEMPATAN KWALA BEGUMIT",
+    "company": "PT Puriasri Bhaktikarya",
+    "firstSeen": "2026-10-02T11:01:04.103Z",
+    "lastSeen": "2026-10-02T11:04:19.785Z",
+    "seenCount": 26,
+    "lastNotified": "2026-10-02T11:01:04.103Z"
+  },
+  {
+    "id": "driver (domisili bali)-ud. duta pangan",
+    "title": "Driver (Domisili Bali)",
+    "company": "UD. Duta Pangan",
+    "firstSeen": "2026-10-02T11:01:04.103Z",
+    "lastSeen": "2026-10-02T11:04:19.785Z",
+    "seenCount": 26,
+    "lastNotified": "2026-10-02T11:01:04.103Z"
   }
 ]
