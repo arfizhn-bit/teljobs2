@@ -1,23 +1,5 @@
 [
   {
-    "id": "sales taking order (medan)-sawargi langgeng sentosa",
-    "title": "Sales Taking Order (Medan)",
-    "company": "SAWARGI LANGGENG SENTOSA",
-    "firstSeen": "2026-09-09T08:03:01.928Z",
-    "lastSeen": "2026-09-09T08:03:01.928Z",
-    "seenCount": 1,
-    "lastNotified": "2026-09-09T08:03:01.928Z"
-  },
-  {
-    "id": "koki warteg / asisten koki warteg-pt jayamakmur indotama sukses",
-    "title": "KOKI WARTEG / ASISTEN KOKI WARTEG",
-    "company": "PT Jayamakmur Indotama Sukses",
-    "firstSeen": "2026-09-09T08:03:01.928Z",
-    "lastSeen": "2026-09-09T08:03:01.928Z",
-    "seenCount": 1,
-    "lastNotified": "2026-09-09T08:03:01.928Z"
-  },
-  {
     "id": "business development-pt alam bumi sumberdaya",
     "title": "Business Development",
     "company": "PT Alam Bumi Sumberdaya",
@@ -841,8 +823,8 @@
     "title": "Facebook",
     "company": "LokerMedan",
     "firstSeen": "2026-09-10T17:03:57.746Z",
-    "lastSeen": "2026-10-02T02:02:59.754Z",
-    "seenCount": 135,
+    "lastSeen": "2026-10-02T05:03:09.720Z",
+    "seenCount": 136,
     "lastNotified": "2026-09-10T17:03:57.746Z"
   },
   {
@@ -850,8 +832,8 @@
     "title": "Twitter",
     "company": "LokerMedan",
     "firstSeen": "2026-09-10T17:03:57.746Z",
-    "lastSeen": "2026-10-02T02:02:59.754Z",
-    "seenCount": 135,
+    "lastSeen": "2026-10-02T05:03:09.720Z",
+    "seenCount": 136,
     "lastNotified": "2026-09-10T17:03:57.746Z"
   },
   {
@@ -8878,8 +8860,8 @@
     "title": "RELATIONSHIP OFFICER PROGRAM",
     "company": "PT Bank Central Asia Tbk (BCA)",
     "firstSeen": "2026-09-29T05:01:00.804Z",
-    "lastSeen": "2026-10-02T02:03:45.758Z",
-    "seenCount": 680,
+    "lastSeen": "2026-10-02T05:03:56.577Z",
+    "seenCount": 706,
     "lastNotified": "2026-09-29T05:01:00.804Z"
   },
   {
@@ -8887,8 +8869,8 @@
     "title": "MANAGEMENT DEVELOPMENT PROGRAM (MDP)",
     "company": "PT Bank Central Asia Tbk (BCA)",
     "firstSeen": "2026-09-29T05:01:00.804Z",
-    "lastSeen": "2026-10-02T02:03:45.758Z",
-    "seenCount": 680,
+    "lastSeen": "2026-10-02T05:03:56.577Z",
+    "seenCount": 706,
     "lastNotified": "2026-09-29T05:01:00.804Z"
   },
   {
@@ -8998,5 +8980,23 @@
     "lastSeen": "2026-09-30T08:03:54.699Z",
     "seenCount": 78,
     "lastNotified": "2026-09-30T05:01:06.467Z"
+  },
+  {
+    "id": "field collection (penempatan garut, singaparna dan bandung)-pt puriasri bhaktikarya",
+    "title": "Field Collection (Penempatan Garut, Singaparna dan Bandung)",
+    "company": "PT Puriasri Bhaktikarya",
+    "firstSeen": "2026-10-02T05:01:00.446Z",
+    "lastSeen": "2026-10-02T05:03:56.577Z",
+    "seenCount": 26,
+    "lastNotified": "2026-10-02T05:01:00.446Z"
+  },
+  {
+    "id": "sales generalis penempatan cirebon-pt puriasri bhaktikarya",
+    "title": "SALES GENERALIS PENEMPATAN CIREBON",
+    "company": "PT Puriasri Bhaktikarya",
+    "firstSeen": "2026-10-02T05:01:00.446Z",
+    "lastSeen": "2026-10-02T05:03:56.577Z",
+    "seenCount": 26,
+    "lastNotified": "2026-10-02T05:01:00.446Z"
   }
 ]
