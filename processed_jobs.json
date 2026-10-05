@@ -1,14 +1,5 @@
 [
   {
-    "id": "team leader (kino international pte ltd)-company team staffinc - fenny h***",
-    "title": "Team Leader (Kino International Pte Ltd)",
-    "company": "Company team staffinc - Fenny H***",
-    "firstSeen": "2026-09-09T08:03:01.929Z",
-    "lastSeen": "2026-09-09T08:03:01.929Z",
-    "seenCount": 1,
-    "lastNotified": "2026-09-09T08:03:01.929Z"
-  },
-  {
     "id": "marketing team leader-institut inovasi nusantara",
     "title": "Marketing Team Leader",
     "company": "Institut Inovasi Nusantara",
@@ -8842,8 +8833,8 @@
     "title": "RELATIONSHIP OFFICER PROGRAM",
     "company": "PT Bank Central Asia Tbk (BCA)",
     "firstSeen": "2026-09-29T05:01:00.804Z",
-    "lastSeen": "2026-10-05T02:03:49.242Z",
-    "seenCount": 1382,
+    "lastSeen": "2026-10-05T05:04:38.353Z",
+    "seenCount": 1408,
     "lastNotified": "2026-09-29T05:01:00.804Z"
   },
   {
@@ -8851,8 +8842,8 @@
     "title": "MANAGEMENT DEVELOPMENT PROGRAM (MDP)",
     "company": "PT Bank Central Asia Tbk (BCA)",
     "firstSeen": "2026-09-29T05:01:00.804Z",
-    "lastSeen": "2026-10-05T02:03:49.242Z",
-    "seenCount": 1382,
+    "lastSeen": "2026-10-05T05:04:38.353Z",
+    "seenCount": 1408,
     "lastNotified": "2026-09-29T05:01:00.804Z"
   },
   {
@@ -8986,8 +8977,8 @@
     "title": "SALES GENERALIS BANK MANDIRI PENEMPATAN KWALA BEGUMIT",
     "company": "PT Puriasri Bhaktikarya",
     "firstSeen": "2026-10-02T11:01:04.103Z",
-    "lastSeen": "2026-10-05T02:03:49.242Z",
-    "seenCount": 624,
+    "lastSeen": "2026-10-05T05:04:38.353Z",
+    "seenCount": 650,
     "lastNotified": "2026-10-02T11:01:04.103Z"
   },
   {
@@ -8998,5 +8989,14 @@
     "lastSeen": "2026-10-05T02:03:49.242Z",
     "seenCount": 624,
     "lastNotified": "2026-10-02T11:01:04.103Z"
+  },
+  {
+    "id": "sales generalis bank mandiri penempatan pamanukan-pt puriasri bhaktikarya",
+    "title": "SALES GENERALIS BANK MANDIRI PENEMPATAN PAMANUKAN",
+    "company": "PT Puriasri Bhaktikarya",
+    "firstSeen": "2026-10-05T05:01:05.514Z",
+    "lastSeen": "2026-10-05T05:04:38.353Z",
+    "seenCount": 26,
+    "lastNotified": "2026-10-05T05:01:05.514Z"
   }
 ]
