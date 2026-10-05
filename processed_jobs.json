@@ -1,41 +1,5 @@
 [
   {
-    "id": "marketing team leader-institut inovasi nusantara",
-    "title": "Marketing Team Leader",
-    "company": "Institut Inovasi Nusantara",
-    "firstSeen": "2026-09-09T11:01:43.387Z",
-    "lastSeen": "2026-09-10T05:01:38.037Z",
-    "seenCount": 9,
-    "lastNotified": "2026-09-09T11:01:43.387Z"
-  },
-  {
-    "id": "staff gudang-pt. sama berkat indonesia",
-    "title": "Staff Gudang",
-    "company": "PT. Sama Berkat Indonesia",
-    "firstSeen": "2026-09-09T11:02:00.870Z",
-    "lastSeen": "2026-09-28T02:01:52.337Z",
-    "seenCount": 274,
-    "lastNotified": "2026-09-09T11:02:00.870Z"
-  },
-  {
-    "id": "security supervisor-pt shield on service, tbk",
-    "title": "Security Supervisor",
-    "company": "PT Shield On Service, Tbk",
-    "firstSeen": "2026-09-09T11:02:19.085Z",
-    "lastSeen": "2026-09-29T05:02:10.582Z",
-    "seenCount": 143,
-    "lastNotified": "2026-09-09T11:02:19.085Z"
-  },
-  {
-    "id": "staff tax & accounting-ben&co",
-    "title": "Staff Tax & Accounting",
-    "company": "Ben&Co",
-    "firstSeen": "2026-09-09T11:03:12.718Z",
-    "lastSeen": "2026-09-17T02:03:21.974Z",
-    "seenCount": 11,
-    "lastNotified": "2026-09-09T11:03:12.718Z"
-  },
-  {
     "id": "team leader-staffinc recruitment partner - annisa h",
     "title": "Team Leader",
     "company": "Staffinc Recruitment Partner - Annisa H",
@@ -8998,5 +8962,41 @@
     "lastSeen": "2026-10-05T08:18:39.593Z",
     "seenCount": 78,
     "lastNotified": "2026-10-05T05:01:05.514Z"
+  },
+  {
+    "id": "sales fmcg-ud. duta pangan",
+    "title": "Sales FMCG",
+    "company": "UD. Duta Pangan",
+    "firstSeen": "2026-10-05T11:01:02.114Z",
+    "lastSeen": "2026-10-05T11:04:33.814Z",
+    "seenCount": 26,
+    "lastNotified": "2026-10-05T11:01:02.114Z"
+  },
+  {
+    "id": "supir pengiriman-ud. duta pangan",
+    "title": "Supir Pengiriman",
+    "company": "UD. Duta Pangan",
+    "firstSeen": "2026-10-05T11:01:02.115Z",
+    "lastSeen": "2026-10-05T11:04:33.814Z",
+    "seenCount": 26,
+    "lastNotified": "2026-10-05T11:01:02.115Z"
+  },
+  {
+    "id": "sales generalis bank mandiri penempatan dumai-pt puriasri bhaktikarya",
+    "title": "SALES GENERALIS BANK MANDIRI PENEMPATAN DUMAI",
+    "company": "PT Puriasri Bhaktikarya",
+    "firstSeen": "2026-10-05T11:01:02.115Z",
+    "lastSeen": "2026-10-05T11:04:33.814Z",
+    "seenCount": 26,
+    "lastNotified": "2026-10-05T11:01:02.115Z"
+  },
+  {
+    "id": "sales generalis bank mandiri penempatan ujung tanjung-pt puriasri bhaktikarya",
+    "title": "SALES GENERALIS BANK MANDIRI PENEMPATAN UJUNG TANJUNG",
+    "company": "PT Puriasri Bhaktikarya",
+    "firstSeen": "2026-10-05T11:01:02.115Z",
+    "lastSeen": "2026-10-05T11:04:33.814Z",
+    "seenCount": 26,
+    "lastNotified": "2026-10-05T11:01:02.115Z"
   }
 ]
